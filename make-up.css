@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+.sectionbrovy{
+    display: flex;
+    height: 90vh;
+
+}
+.fhotozbrovamy{
+    width: 50%;
+
+}
+.fhotozbrovamy img{
+    width: 100%;
+    height: 50%;
+}
+.aboutbrovy{
+    height: 100%;
+    width: 50%;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#formed{
+    font-family: Mea Culpa;
+    font-size: 46px;
+    color: #c6965A;
+    margin: 0;
+
+}
+#brovy{
+    font-family: tines;
+    font-size: 65px;
+    margin: 0;
+
+}
+
+#pmakeup{
+    font-family: tunnel sans;
+    font-size: 16px;
+}
+.zapisbutton{
+    background-color: black;
+    color: white;
+    height: 38px;
+    width: 200px;
+    display: block;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+#zapisid{
+    width: 100px;
+}
