@@ -2,10 +2,11 @@
 .sectionbrovy{
     display: flex;
     height: 90vh;
-
+    padding: 20px;
 }
 .fhotozbrovamy{
-    width: 50%;
+    width: 45%;
+    height: auto;
 
 }
 .fhotozbrovamy img{
@@ -14,10 +15,11 @@
 }
 .aboutbrovy{
     height: 100%;
-    width: 50%;
+    width: 53%;
     align-content: center;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 #formed{
@@ -36,7 +38,7 @@
 
 #pmakeup{
     font-family: tunnel sans;
-    font-size: 16px;
+    font-size: 24px;
 }
 .zapisbutton{
     background-color: black;
@@ -45,10 +47,45 @@
     width: 200px;
     display: block;
     margin: 10px;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: bold;
+    transition: ease 0.2s;
+    border-radius: 4px;
+    font-family: tines;
 
+
+}
+.zapisbutton:hover{
+    transform: scale(1.1);
 }
 #zapisid{
     width: 100px;
+}
+.brovymake-up2section{
+    height: 76vh;
+    padding: 20px;
+}
+.h3make-up{
+    text-align: center;
+
+
+
+}
+.div1pery{
+    width: 50%;
+}
+
+.perydiv2fhoto{
+    width: 50%;
+    height: auto;
+
+
+}
+
+.perydiv2fhoto img{
+    width: 50%;
+    height: 50%;
+}
+.divflex{
+display: flex;
 }
