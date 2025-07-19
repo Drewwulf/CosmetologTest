@@ -8,12 +8,14 @@
 .fhotozbrovamy{
     width: 45%;
     height: auto;
+    padding: 10px;
+
 
 }
 .fhotozbrovamy img{
     width: 100%;
-    height: 50%;
 }
+
 .aboutbrovy{
     height: 100%;
     width: 53%;
@@ -85,17 +87,23 @@
     margin: 10px;
     font-size: 1.2rem;
     font-weight: bold;
+    list-style-image: url("check_small_23dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png");
+    padding: 5px;
 
 }.div1pery ul{
-    padding-left: 10px;
+    padding-left: 16px;
 }
 
 .perydiv2fhoto{
     width: 50%;
-
+transition: 0.5s;
     padding: 10px;
 
 
+
+}
+.perydiv2fhoto:hover{
+     transform:  scale(1.1);
 
 }
 
