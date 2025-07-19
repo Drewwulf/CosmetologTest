@@ -2,6 +2,10 @@ body{
     margin: 0!important;
 }
 
+.row{
+    margin-right: 0!important;
+}
+
 #divPerman{
     background-image: url('Dizajn-bez-nazvu-21.jpg');
 }
@@ -27,8 +31,9 @@ body{
     text-align: center;
     background-size: cover;
     background-position: center;
-    margin: 8vh;
+    margin: 7vh;
     transition: ease 0.2s;
+    margin-left: 8vh;
 }
 
 .div1:hover{
