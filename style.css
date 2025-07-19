@@ -1,0 +1,117 @@
+body{
+    margin: 0!important;
+}
+
+.row{
+    margin-right: 0!important;
+}
+
+#divPerman{
+    background-image: url('Dizajn-bez-nazvu-21.jpg');
+}
+
+#divKorekcia{
+    background-image: url('https://www.bp-ba.sk/wp-content/uploads/2023/06/2.jpg');
+}
+
+#divLamino{
+    background-image: url('https://www.bp-ba.sk/wp-content/uploads/2023/06/2-5.jpg');
+}
+
+#divDepilacio{
+    background-image: url('https://www.bp-ba.sk/wp-content/uploads/2023/06/1-8.jpg');
+}
+
+#divKozmetika{
+    background-image: url('https://www.bp-ba.sk/wp-content/uploads/2023/06/1-9.jpg');
+}
+
+.div1{
+    height: 41vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    margin: 7vh;
+    transition: ease 0.2s;
+    margin-left: 8vh;
+}
+
+.div1:hover{
+    transform: scale(1.05);
+}
+
+.div1 h2{
+    height: 41vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    font-weight: 600;
+    font-size: 46px;
+}
+
+.col-3{
+    padding: 0 !important;
+}
+
+.div1 h2 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.procedurH1{
+    color: #ffffff;
+    text-align: center;
+    border: double;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.artmarblestudio.ru%2Farticles%2Fo-samyx-czennyx-porodax-mramora-goluboj-i-belyj%2F&psig=AOvVaw3Js0ibomRgCnTmAt_714Pv&ust=1752338321327000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDvvIuftY4DFQAAAAAdAAAAABAE')
+}
+
+.navDecoration{
+    height: 10vh;
+    margin: -1vh;
+}
+
+.nav-link{
+    color: #ffffff!important;
+}
+
+.navbar-brand{
+    color: #ffffff!important;
+}
+
+.navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    background-color: #7c695b;
+}
+
+.section{
+    background-color: #9a8677;
+}
+
+.divDark{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(81, 88, 51, 0.17);
+}
+
+.footer{
+    background-color: #7c695b;
+    height: 12vh;
+    color: #ffffff;
+    align-content: center;
+}
+
+.postaH2{
+    text-align: center;
+}
+
+.kontaktyH2{
+    text-align: left;
+}
+
+.footerDiv{
+    display: flex;
+    justify-content: space-around;
+}
