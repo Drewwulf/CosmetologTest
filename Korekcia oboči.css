@@ -1,0 +1,31 @@
+.divfhotoobocive {
+    width: 50%;
+}
+.divfhotoobocive img{
+    width: 100%;
+    padding: 10px;
+}
+.sectionobocive{
+    padding: 20px;
+}
+.divopisobocive{
+    width: 50%;
+    padding: 10px;
+}
+.divflex{
+    display: flex;
+}
+.h2korekcia{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.obocivaP{
+    font-size: 1.3rem;
+    
+}
+.ULobociva{
+    font-size: 1.2rem;
+    list-style-image: url("check_small_23dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png");
+    padding-left: 25px;
+    
+}
