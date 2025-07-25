@@ -1,31 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
+.sectionbrovy {
+    display: flex;
+    height: 90vh;
+    padding: 20px;
+    background: #9a8677;
+}
+.fhotozbovamy {
+    width: 45%;
+    padding: 10px;
+    height: auto;
+}
+.fhotozbovamy img {
+    width: 100%;
+}
+.aboutbrovy {
+    height: 100%;
+    width: 53%;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#formed {
+    font-family: Mea Culpa;
+    font-size: 2.875rem;
+    color: #c6965a;
+    margin: 0;
+}
+#brovy {
+    font-family: tines;
+    font-size: 4.06rem;
+    margin: 0;
+}
+#pmakeup {
+    font-family: tunnel sans;
+    font-size: 1.5rem;
+}
+.zapisbutton {
+    background-color: black;
+    color: white;
+    height: 38px;
+    width: 200px;
+    display: block;
+    margin: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    transition: ease 0.2s;
+    border-radius: 4px;
+    font-family: tines;
+}
+.zapisbutton:hover {
+    transform: scale(1.1);
+}
+
 .divfhotoobocive {
     width: 50%;
 }
-.divfhotoobocive img{
+.divfhotoobocive img {
     width: 100%;
     padding: 10px;
 }
-.sectionobocive{
+.sectionobocive {
     padding: 20px;
+    background-color: #9a8677;
 }
-.divopisobocive{
+.divopisobocive {
     width: 50%;
     padding: 10px;
 }
-.divflex{
+.divflex {
     display: flex;
 }
-.h2korekcia{
+.h2korekcia {
     text-align: center;
     font-size: 1.8rem;
 }
-.obocivaP{
-    font-size: 1.3rem;
-    
+.obocivaP {
+    font-size: 1.6rem;
+    font-family: tines;
 }
-.ULobociva{
-    font-size: 1.2rem;
+.ULobociva {
+    font-size: 1.6rem;
     list-style-image: url("check_small_23dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png");
     padding-left: 25px;
-    
+}
+
+.divline {
+    width: 70%;
+
+    margin: auto;
+}
+
+.divline hr {
+    border: none; /* Прибираємо стандартну рамку */
+    border-top: 1px solid black; /* Додаємо верхню рамку товщиною 1px чорного кольору */
 }
