@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
 .sectionbrovy {
     display: flex;
-    height: 90vh;
+    height: 85vh;
     padding: 20px;
     background: #9a8677;
 }
@@ -23,21 +23,23 @@
 #formed {
     font-family: Mea Culpa;
     font-size: 2.875rem;
-    color: #c6965a;
+    color: #f8f7f4;
     margin: 0;
 }
 #brovy {
     font-family: tines;
     font-size: 4.06rem;
     margin: 0;
+    color: #f8f7f4;
 }
 #pmakeup {
     font-family: tunnel sans;
     font-size: 1.5rem;
+    color: #f8f7f4;
 }
 .zapisbutton {
     background-color: black;
-    color: white;
+    color: #f8f7f4;
     height: 38px;
     width: 200px;
     display: block;
@@ -73,15 +75,18 @@
 .h2korekcia {
     text-align: center;
     font-size: 1.8rem;
+    color: #f8f7f4;
 }
 .obocivaP {
     font-size: 1.6rem;
     font-family: tines;
+    color: #f8f7f4;
 }
 .ULobociva {
     font-size: 1.6rem;
-    list-style-image: url("check_small_23dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png");
+    list-style-image: url("check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
     padding-left: 25px;
+    color: #f8f7f4;
 }
 
 .divline {
@@ -92,5 +97,43 @@
 
 .divline hr {
     border: none; /* Прибираємо стандартну рамку */
-    border-top: 1px solid black; /* Додаємо верхню рамку товщиною 1px чорного кольору */
+    border-top: 1px solid #f8f7f4; /* Додаємо верхню рамку товщиною 1px чорного кольору */
+}
+
+.liobocie {
+    color: #f8f7f4;
+}
+
+.foter {
+    height: 50vh;
+    display: flex;
+    padding: 20px;
+    background-color: #C6965A;
+}
+.footersection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: #f8f7f4;
+}
+.ulfhone {
+    width: 32%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+.ulvidguki {
+    width: 32%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+}
+.ulquestion {
+    width: 32%;
+    padding: 10px;
+    height: 100%;
+    margin: 0;
 }
