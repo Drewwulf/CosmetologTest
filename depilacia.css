@@ -125,3 +125,21 @@ body {
 .pOst {
     padding-top: 5px;
 }
+@media(max-width: 500px)
+{
+
+
+
+
+
+
+    .footer
+    {
+        background-color: red;
+
+    }
+    .sect1
+    {
+        display: block;
+    }
+}
