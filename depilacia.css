@@ -115,3 +115,16 @@ body {
     text-align: center;
     font-family: tinos;
 }
+.footer
+{
+    background-color:  #7c695b;
+    text-align: center;
+    color: #f8f7f4;;
+    padding-top: 17px;
+    padding-bottom: 1px;
+}
+
+.pOst
+{
+    padding-top: 5px;
+}
