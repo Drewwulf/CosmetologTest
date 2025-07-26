@@ -30,7 +30,7 @@ body {
 .sect1 {
     display: flex;
     text-align: left;
-    height: 90vh;
+    height: 80vh;
 }
 
 .image1 {
@@ -114,4 +114,11 @@ body {
     background-color:  #7c695b;
     text-align: center;
     color: #f8f7f4;;
+    padding-top: 17px;
+    padding-bottom: 1px;
+}
+
+.pOst
+{
+    padding-top: 5px;
 }
