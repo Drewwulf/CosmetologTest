@@ -298,3 +298,22 @@ hr {
 #photoDiv6{
     margin-top: 5vh;
 }
+
+@media (max-width: 1000px){
+    .mainDiv {
+        display: block;
+    }
+
+    .photoDiv{
+        width: 100%;
+
+    }
+
+    .textDiv{
+        width: 100%;
+    }
+
+    .photoDiv img {
+        width: 97%;
+    }
+}
