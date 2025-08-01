@@ -56,10 +56,10 @@
 
 .divfhotoobocive {
     width: 50%;
+    padding: 10px;
 }
 .divfhotoobocive img {
     width: 100%;
-    padding: 10px;
 }
 .sectionobocive {
     padding: 20px;
@@ -105,10 +105,10 @@
 }
 
 .foter {
-    height: 50vh;
+    height: 20vh;
     display: flex;
     padding: 20px;
-    background-color: #C6965A;
+    background-color: #7c695b;
 }
 .footersection {
     width: 100%;
@@ -123,17 +123,37 @@
     height: 100%;
     padding: 10px;
     margin: 0;
+    list-style-type: none;
+    text-align: left;
+}
+.liFhone {
+    padding-bottom: 0.625rem;
 }
 
-.ulvidguki {
-    width: 32%;
-    height: 100%;
-    padding: 10px;
-    margin: 0;
-}
 .ulquestion {
     width: 32%;
     padding: 10px;
     height: 100%;
     margin: 0;
+    list-style-type: none;
+    text-align: left;
+}
+.ulvidguki {
+    width: 32%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+
+    color: #f8f7f4;
+}
+.lividguki {
+    width: 100%;
+    padding-bottom: 0.45rem;
+    padding-top: 0.45rem;
+}
+
+.aAbout {
+    text-decoration: none;
+    color: #f8f7f4;
 }
