@@ -34,6 +34,7 @@ body{
     margin: 7vh;
     transition: ease 0.2s;
     margin-left: 8vh;
+    box-shadow: 12px 12px 25px;
 }
 
 .div1:hover{
@@ -114,4 +115,26 @@ body{
 .footerDiv{
     display: flex;
     justify-content: space-around;
+}
+
+@media (max-width: 1000px){
+    #divPerman{
+        width: 63%;
+    }
+
+     #divKorekcia{
+        width: 63%;
+    }
+
+     #divLamino{
+        width: 63%;
+    }
+
+     #divDepilacio{
+        width: 63%;
+    }
+
+     #divKozmetika{
+        width: 63%;
+    }
 }
