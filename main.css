@@ -48,7 +48,6 @@
 
 .section {
     background-color: #9a8677;
-
 }
 
 .footer {
@@ -112,7 +111,7 @@
     width: 70%;
 }
 
-#photoDiv2{
+#photoDiv2 {
     width: 50%;
     align-content: center;
     padding: 10px;
@@ -183,6 +182,11 @@
     color: #ffffff;
 }
 
+#photoDiv2 img{
+    height: 70%;
+    width: 85%;
+}
+
 .textDiv button {
     color: #ffffff;
     background-color: #000000;
@@ -201,53 +205,53 @@
     transform: scale(1.1);
 }
 
-.h2{
+.h2 {
     color: #ffffff !important;
-    font-size: 2.8rem!important;
+    font-size: 2.8rem !important;
 }
 
-.pOpis{
-    width: 73%!important;
+.pOpis {
+    width: 73% !important;
 }
 
-#textDiv2{
+#textDiv2 {
     padding-left: 50px;
     margin-top: 4vh;
     padding: 20px;
 }
 
-.moznostiUl{
+.moznostiUl {
     list-style-image: url("check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24.png");
-    color: #F8F7F4;
+    color: #f8f7f4;
     margin-left: 4vh;
     font-size: 1.3rem;
     font-weight: 500;
 }
 
-.moznostiH4{
-    color: #F8F7F4;
+.moznostiH4 {
+    color: #f8f7f4;
     margin-top: 6vh;
 }
 
-.pellingH2{
+.pellingH2 {
     color: #ffffff;
-    font-size: 2.8rem!important;
+    font-size: 2.8rem !important;
 }
 
-#textDiv3{
+#textDiv3 {
     margin-top: 4vh;
     background-color: #c9b29c;
     padding: 20px;
 }
 
-#photoDiv3{
+#photoDiv3 {
     margin-top: 4vh;
     background-color: #c9b29c;
     padding: 10px;
     align-content: center;
 }
 
-.mainH2{
+.mainH2 {
     text-align: center;
     width: 100%;
     height: 3%;
@@ -256,19 +260,41 @@
     font-size: 3.2rem;
 }
 
-hr{
+hr {
     width: 40%;
-    margin: 0 auto!important;
-    color: #F8F7F4!important;
-    margin-top: 1vh!important;
-    border: 2px solid!important;
+    margin: 0 auto !important;
+    color: #f8f7f4 !important;
+    margin-top: 1vh !important;
+    border: 2px solid !important;
 }
 
-#textDiv4{
+#textDiv4 {
     padding: 20px;
     margin-top: 1vh;
 }
 
-#photoDiv4{
+#photoDiv4 {
+    margin-top: 5vh;
+}
+
+#photoDiv5 {
+    margin-top: 4vh;
+    background-color: #c9b29c;
+    padding: 10px;
+    align-content: center;
+}
+
+#textDiv5 {
+    margin-top: 4vh;
+    background-color: #c9b29c;
+    padding: 20px;
+}
+
+.textDiv6{
+    padding: 20px;
+    margin-top: 1vh;
+}
+
+.photoDiv6{
     margin-top: 5vh;
 }
