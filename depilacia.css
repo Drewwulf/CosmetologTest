@@ -35,7 +35,6 @@ body {
 .sect1 {
     display: flex;
     text-align: left;
-    height: 80vh;
 }
 
 .image1 {
@@ -125,21 +124,34 @@ body {
 .pOst {
     padding-top: 5px;
 }
-@media(max-width: 500px)
-{
-
-
-
-
-
-
-    .footer
-    {
-        background-color: red;
-
-    }
-    .sect1
-    {
+@media (max-width: 500px) {
+    .sect1 {
         display: block;
+    }
+    .image1 {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+        padding: 25px;
+        align-content: center;
+    }
+    .div2 {
+        display: block;
+    }
+    .div3 {
+        display: block;
+    }
+    .text2 {
+    width: 100%;
+    color: #f8f7f4;
+    font-family: tinos;
+    padding: 20px;
+    }
+    .image3 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    align-content: center;
     }
 }
