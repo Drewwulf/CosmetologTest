@@ -182,4 +182,9 @@ body {
     .text2 h3 {
         font-size: 5rem !important;
     }
+    .sect1 button{
+        height: 140px ;
+        width: 500px;
+        font-size: 3rem;
+    }
 }
