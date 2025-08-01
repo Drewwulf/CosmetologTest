@@ -211,7 +211,7 @@
 }
 
 #textDiv2{
-    padding-left: 50 px;
+    padding-left: 50px;
     margin-top: 4vh;
     padding: 20px;
 }
@@ -262,4 +262,13 @@ hr{
     color: #F8F7F4!important;
     margin-top: 1vh!important;
     border: 2px solid!important;
+}
+
+#textDiv4{
+    padding: 20px;
+    margin-top: 1vh;
+}
+
+#photoDiv4{
+    margin-top: 5vh;
 }
