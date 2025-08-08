@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
+html {
+    padding: 20px;
+}
 .sectionbrovy {
     display: flex;
-    height: 85vh;
     padding: 20px;
     background: #9a8677;
 }
@@ -160,11 +162,70 @@
 @media (max-width: 1000px) {
     .sectionbrovy {
         display: block;
-        height: 40vh;
+
         padding: 20px;
         background: #9a8677;
     }
     .fhotozbovamy {
         width: 100%;
+        padding: 0;
+    }
+
+    .zapisbutton {
+        height: 140px;
+        width: 500px;
+        font-size: 3rem;
+    }
+    .aboutbrovy {
+        width: 100%;
+        padding: 0;
+    }
+    #pmakeup {
+        font-size: 3rem;
+    }
+    #formed {
+        font-family: Mea Culpa;
+        font-size: 5.75rem;
+        color: #f8f7f4;
+        margin: 0;
+    }
+    #brovy {
+        font-family: tines;
+        font-size: 8.12rem;
+        margin: 0;
+        color: #f8f7f4;
+    }
+
+    .divopisobocive {
+        width: 100%;
+    }
+    .divflex {
+        display: block;
+    }
+    .divfhotoobocive {
+        width: 100%;
+        padding: 0;
+    }
+    .obocivaP {
+        font-size: 3.2rem;
+    }
+    .h2korekcia {
+        font-size: 3.6rem;
+    }
+    .zapisbutton:hover {
+        transform: scale(1.1);
+    }
+    .ulfhone {
+        font-size: 2.2rem;
+    }
+    .ulquestion {
+        font-size: 2.2rem;
+    }
+    svg {   
+        height: 60px;
+        width: 60px;
+    }
+    html {
+        padding: 20px;
     }
 }
