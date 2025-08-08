@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+html{
+    padding: 20px;
+}
 .sectionbrovy{
     display: flex;
     height: 90vh;
@@ -17,7 +20,7 @@
 }
 
 .aboutbrovy{
-    height: 100%;
+
     width: 53%;
     align-content: center;
     padding-left: 20px;
@@ -121,4 +124,19 @@ display: flex;
 .psection2{
     font-size: 1.2rem;
 }
+@media (max-width:1000px){
+    .aboutbrovy{
+        width: 100%;
+    }
+    .sectionbrovy{
+        display: block;
+    }
+    .fhotozbrovamy{
+        width: 100%;
+        padding: 0;
 
+    }
+
+
+
+}
