@@ -35,7 +35,7 @@ body {
 .sect1 {
     display: flex;
     text-align: left;
-    height: 80vh;
+
 }
 
 .image1 {
@@ -126,7 +126,7 @@ body {
     padding-top: 5px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .sect1 {
         display: block;
     }
@@ -155,5 +155,38 @@ body {
         padding: 10px;
         border-radius: 4px;
         align-content: center;
+    }
+    main {
+        font-size: 4rem;
+    }
+    .footer {
+        font-size: 3rem;
+    }
+    .footer h5 {
+        font-size: 3rem;
+    }
+    header {
+        font-size: 3rem;
+    }
+
+    .navbar div a {
+        font-size: 3rem;
+    }
+    .info h2 {
+        font-size: 6rem !important;
+    }
+    .info h1 {
+        font-size: 6rem !important;
+    }
+    .headSect2 h2 {
+        font-size: 5rem !important;
+    }
+    .text2 h3 {
+        font-size: 5rem !important;
+    }
+    .sect1 button{
+        height: 140px ;
+        width: 500px;
+        font-size: 3rem;
     }
 }
