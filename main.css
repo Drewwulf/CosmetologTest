@@ -306,14 +306,28 @@ hr {
 
     .photoDiv{
         width: 100%;
+    }
 
+    #photoDiv{
+        margin: 0;
     }
 
     .textDiv{
         width: 100%;
     }
 
+    #textDiv{
+        padding-left: 34px;
+        margin-top: -3vh;
+    }
+
+    #textDiv h1
+
     .photoDiv img {
         width: 97%;
+    }
+
+    .mainH2{
+        margin-top: 2vh;
     }
 }
