@@ -35,7 +35,6 @@ body {
 .sect1 {
     display: flex;
     text-align: left;
-    height: 80vh;
 }
 
 .image1 {
