@@ -104,7 +104,6 @@
 .photoDiv {
     width: 50%;
     margin-top: 2vh;
-    text-align: center;
 }
 
 .photoDiv img {
@@ -182,7 +181,7 @@
     color: #ffffff;
 }
 
-#photoDiv2 img{
+#photoDiv2 img {
     height: 70%;
     width: 85%;
 }
@@ -192,7 +191,7 @@
     background-color: #000000;
     height: 38px;
     width: 200px;
-    font-size: 14px;
+    font-size: 16px;
     transition: ease 0.2s;
     font-family: tinos;
     font-weight: bold;
@@ -260,9 +259,17 @@
     font-size: 3.2rem;
 }
 
-hr {
+.hr {
     width: 40%;
     margin: 0 auto !important;
+    color: #f8f7f4 !important;
+    margin-top: 1vh !important;
+    border: 2px solid !important;
+}
+
+.hr2 {
+    width: 40%;
+    margin: -1 auto !important;
     color: #f8f7f4 !important;
     margin-top: 1vh !important;
     border: 2px solid !important;
@@ -290,44 +297,101 @@ hr {
     padding: 20px;
 }
 
-#textDiv6{
+#textDiv6 {
     padding: 20px;
     margin-top: 1vh;
 }
 
-#photoDiv6{
+#photoDiv6 {
     margin-top: 5vh;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
     .mainDiv {
         display: block;
     }
 
-    .photoDiv{
+    .photoDiv {
         width: 100%;
+        padding: 10px;
+        align-content: center;
     }
 
-    #photoDiv{
+    #photoDiv {
         margin: 0;
     }
 
-    .textDiv{
+    .textDiv {
         width: 100%;
     }
 
-    #textDiv{
-        padding-left: 34px;
-        margin-top: -3vh;
+    .textDiv p {
+        font-size: 4rem !important;
     }
 
-    #textDiv h1
+    #textDiv {
+        padding-left: 37px;
+        margin-top: 1vh;
+    }
+
+    #textDiv h1 {
+        font-size: 9rem;
+    }
+
+    #textDiv button {
+        font-size: 3rem;
+        height: 140px;
+        width: 500px;
+    }
 
     .photoDiv img {
-        width: 97%;
+        width: 100% !important;
     }
 
-    .mainH2{
+    .mainH2 {
         margin-top: 2vh;
+        font-size: 7rem;
+    }
+
+    .textDiv h2 {
+        font-size: 6rem !important;
+    }
+
+    .textDiv ul li {
+        font-size: 3rem;
+        padding: 0 !important;
+    }
+
+    .textDiv ul {
+        font-size: 5rem;
+        padding: 0 !important;
+    }
+
+    .moznostiH4 {
+        font-size: 4rem;
+    }
+
+    #photoDiv3 {
+        margin-bottom: -4vh;
+    }
+
+    #photoDiv5 {
+        margin-bottom: -4vh;
+    }
+
+    .hr {
+        width: 40%;
+        margin: 0 auto !important;
+        color: #f8f7f4 !important;
+        margin-top: 1vh !important;
+        border: 2px solid !important;
+    }
+
+    .hr2 {
+        width: 60%;
+        margin: -1 auto !important;
+        color: #f8f7f4 !important;
+        margin-top: 1vh !important;
+        border: 2px solid !important;
     }
 }
