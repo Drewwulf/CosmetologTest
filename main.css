@@ -6,6 +6,12 @@
     display: flex;
 }
 
+.navbar {
+    margin: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 .textDiv {
     width: 50%;
 }
@@ -44,6 +50,12 @@
 .navbar > .container-xl,
 .navbar > .container-xxl {
     background-color: #7c695b;
+    height: 15vh;
+    font-size: 1.7rem;
+}
+
+.salonKrasy{
+    font-size: 2.2rem!important;
 }
 
 .section {
@@ -88,6 +100,7 @@
     background-color: black;
     color: #ffffff;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
@@ -306,9 +319,14 @@
     margin-top: 5vh;
 }
 
+
 @media (max-width: 1000px) {
     .mainDiv {
         display: block;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 2rem;
     }
 
     .photoDiv {
@@ -317,8 +335,14 @@
         align-content: center;
     }
 
+    .navbar-collapse {
+        background-color: #7b5d4d;
+        padding: 1rem;
+    }
+
     #photoDiv {
         margin: 0;
+        padding-top: 30px
     }
 
     .textDiv {
@@ -393,5 +417,13 @@
         color: #f8f7f4 !important;
         margin-top: 1vh !important;
         border: 2px solid !important;
+    }
+
+    .salonKrasy{
+        font-size: 3.3rem!important;
+    }
+
+    #navbarNav {
+        background-color: #7c695b;
     }
 }
