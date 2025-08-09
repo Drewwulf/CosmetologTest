@@ -2,42 +2,36 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Title</title>
+        <title>cosmetolog</title>
         <link rel="stylesheet" href="main.css" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
             crossorigin="anonymous" />
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </head>
-    <body>
-        <header></header>
-        <main>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid navDecoration">
-                    <a class="navbar-brand home" href="#">SALÓN KRÁSY</a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarScroll"
-                        aria-controls="navbarScroll"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarScroll">
-                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+<body>
+    <header></header>
+    <main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="mainDiv2 container-fluid">
+                <a class="navbar-brand salonKrasy" href="#">SALÓN KRÁSY</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#footer">kontakty</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">PROCEDÚRY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">kontakty</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">cenovky</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">PROCEDÚRY</a>
-                            </li>
-
                             <li class="nav-item">
                                 <a class="nav-link disabled" aria-disabled="true">o nás</a>
                             </li>
@@ -69,10 +63,11 @@
                     </div>
                 </div>
                 <h2 class="mainH2">Cenník ošetrení tváre</h2>
-                <hr />
+                <hr class="hr">
                 <div class="mainDiv">
                     <div class="textDiv" id="textDiv2">
                         <h2 class="h2">Služby čistenia pleti</h2>
+                        <hr class="hr2">
                         <p class="pOpis">
                             Služby čistenia pleti Ponúkame komplexné služby čistenia pleti, ktoré sú navrhnuté tak, aby
                             vyhovovali rôznym potrebám a typom pleti. Či už hľadáte jemné osvieženie alebo hĺbkové
@@ -91,11 +86,11 @@
                 </div>
                 <div class="mainDiv">
                     <div class="photoDiv" id="photoDiv3">
-                        <img
-                            src="https://www.bp-ba.sk/wp-content/uploads/2023/06/2-9.jpg" />
+                        <img src="https://www.bp-ba.sk/wp-content/uploads/2023/06/2-9.jpg" />
                     </div>
                     <div class="textDiv" id="textDiv3">
                         <h2 class="pellingH2">Popis peelingových služieb</h2>
+                        <hr class="hr2">
                         <p class="pOpis">
                             Ponúkame rôzne peelingové procedúry zamerané na obnovu a zlepšenie stavu vašej pleti.
                             Peelingy efektívne odstraňujú odumreté bunky, stimulujú regeneráciu a pomáhajú eliminovať
@@ -112,6 +107,7 @@
                 <div class="mainDiv">
                     <div class="textDiv" id="textDiv4">
                         <h2 class="pellingH2">Masáže tváre a tela</h2>
+                        <hr class="hr2">
                         <p class="pOpis">
                             Exkluzívna služba, ktorá spája hlbokú relaxáciu a intenzívnu starostlivosť o pleť tváre.
                             Masáž uvoľňuje svaly tváre, zlepšuje tón a kontúry, zatiaľ čo hydratačné zložky nasýtia
@@ -125,8 +121,7 @@
                         </ul>
                     </div>
                     <div class="photoDiv" id="photoDiv4">
-                        <img
-                            src="https://www.bp-ba.sk/wp-content/uploads/2023/06/1-6.jpg" />
+                        <img src="https://www.bp-ba.sk/wp-content/uploads/2023/06/1-6.jpg" />
                     </div>
                 </div>
                 <div class="mainDiv">
@@ -136,8 +131,11 @@
                     </div>
                     <div class="textDiv" id="textDiv5">
                         <h2 class="pellingH2">Služby mezoterapie</h2>
+                        <hr class="hr2">
                         <p class="pOpis">
-                           Ide o inovatívnu a najmodernejšiu procedúru v estetickej kozmetológii. Exozómy sú mikročastice obsahujúce biologicky aktívne látky (rastové faktory, peptidy, vitamíny), ktoré stimulujú regeneráciu buniek na najhlbšej úrovni.
+                            Ide o inovatívnu a najmodernejšiu procedúru v estetickej kozmetológii. Exozómy sú
+                            mikročastice obsahujúce biologicky aktívne látky (rastové faktory, peptidy, vitamíny), ktoré
+                            stimulujú regeneráciu buniek na najhlbšej úrovni.
                         </p>
                         <h4 class="moznostiH4">Naše možnosti mezoterapie zahŕňajú:</h4>
                         <ul class="moznostiUl">
@@ -147,11 +145,14 @@
                         </ul>
                     </div>
                 </div>
-                             <div class="mainDiv">
+                <div class="mainDiv">
                     <div class="textDiv" id="textDiv6">
                         <h2 class="pellingH2">Ostatné služby</h2>
+                        <hr class="hr2">
                         <p class="pOpis">
-                            Počas konzultácie náš špecialista vykoná diagnostiku pleti, vypočuje vaše priania a navrhne individuálny plán starostlivosti. Pomôžeme vám zorientovať sa vo veľkom množstve služieb a nájsť presne to, čo najlepšie pomôže dosiahnuť vaše ciele.
+                            Počas konzultácie náš špecialista vykoná diagnostiku pleti, vypočuje vaše priania a navrhne
+                            individuálny plán starostlivosti. Pomôžeme vám zorientovať sa vo veľkom množstve služieb a
+                            nájsť presne to, čo najlepšie pomôže dosiahnuť vaše ciele.
                         </p>
                         <h4 class="moznostiH4">Naše možnosti Ostatné služby zahŕňajú:</h4>
                         <ul class="moznostiUl">
@@ -161,8 +162,7 @@
                         </ul>
                     </div>
                     <div class="photoDiv" id="photoDiv6">
-                        <img
-                            src="https://www.bp-ba.sk/wp-content/uploads/2023/06/2-1.jpg" />
+                        <img src="https://www.bp-ba.sk/wp-content/uploads/2023/06/2-1.jpg" />
                     </div>
                 </div>
             </section>
