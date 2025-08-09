@@ -2,91 +2,428 @@
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-.mainDiv{
+.mainDiv {
     display: flex;
 }
 
-.textDiv{
-    width: 50%;
-    margin-top: 10vh
+.navbar {
+    margin: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
-.photoDiv{
+.textDiv {
+    width: 50%;
+}
+
+.photoDiv {
     width: 50%;
     margin-top: 2vh;
-    text-align: center
+    text-align: center;
 }
 
-.photoDiv img{
+.photoDiv img {
     width: 70%;
-    height: 50%;
 }
 
-#photoDiv{
-    height: 79vh;
+#photoDiv {
+    margin-bottom: 5vh;
 }
 
-.navDecoration{
+.navDecoration {
     height: 10vh;
     margin: -1vh;
 }
 
-.nav-link{
-    color: #ffffff!important;
+.nav-link {
+    color: #ffffff !important;
 }
 
-.navbar-brand{
-    color: #ffffff!important;
+.navbar-brand {
+    color: #ffffff !important;
 }
 
-.navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
     background-color: #7c695b;
+    height: 15vh;
+    font-size: 1.7rem;
 }
 
-.section{
+.salonKrasy{
+    font-size: 2.2rem!important;
+}
+
+.section {
     background-color: #9a8677;
-    height: 200vh;
 }
 
-.footer{
+.footer {
     background-color: #7c695b;
     height: 12vh;
     color: #ffffff;
     align-content: center;
 }
 
-.postaH2{
+.postaH2 {
     text-align: center;
 }
 
-.kontaktyH2{
+.kontaktyH2 {
     text-align: left;
 }
 
-.footerDiv{
+.footerDiv {
     display: flex;
     justify-content: space-around;
 }
 
-.textDiv h1{
+.textDiv h1 {
     font-family: tinos;
     font-size: 65px;
     margin: 0;
     color: #f8f7f4;
 }
 
-.textDiv p{
+.textDiv p {
     width: 85%;
     color: #f8f7f4;
     font-family: Funnel Sans;
     font-size: 1.5rem;
 }
 
-.textDiv button{
+.textDiv button {
     background-color: black;
     color: #ffffff;
 }
 
-#photoDiv2{
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.mainDiv {
+    display: flex;
+}
+
+.textDiv {
+    width: 50%;
+    margin-top: 14vh;
+}
+
+.photoDiv {
+    width: 50%;
+    margin-top: 2vh;
+}
+
+.photoDiv img {
+    width: 70%;
+}
+
+#photoDiv2 {
+    width: 50%;
+    align-content: center;
+    padding: 10px;
+}
+
+.navDecoration {
+    height: 10vh;
+    margin: -1vh;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+    background-color: #7c695b;
+}
+
+.section {
+    background-color: #9a8677;
+}
+
+.footer {
+    background-color: #7c695b;
+    height: 12vh;
+    color: #ffffff;
+    align-content: center;
+}
+
+.postaH2 {
     text-align: center;
+}
+
+.kontaktyH2 {
+    text-align: left;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textDiv h1 {
+    font-family: tinos;
+    font-size: 65px;
+    margin: 0;
+    color: #f8f7f4;
+}
+
+.textDiv p {
+    width: 85%;
+    color: #f8f7f4;
+    font-family: Funnel Sans;
+    font-size: 1.5rem;
+}
+
+.textDiv button {
+    background-color: black;
+    color: #ffffff;
+}
+
+#photoDiv2 img {
+    height: 70%;
+    width: 85%;
+}
+
+.textDiv button {
+    color: #ffffff;
+    background-color: #000000;
+    height: 38px;
+    width: 200px;
+    font-size: 16px;
+    transition: ease 0.2s;
+    font-family: tinos;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 6px 4px #545454;
+    margin-top: 1vh;
+}
+
+.sect1 button:hover {
+    transform: scale(1.1);
+}
+
+.h2 {
+    color: #ffffff !important;
+    font-size: 2.8rem !important;
+}
+
+.pOpis {
+    width: 73% !important;
+}
+
+#textDiv2 {
+    padding-left: 50px;
+    margin-top: 4vh;
+    padding: 20px;
+}
+
+.moznostiUl {
+    list-style-image: url("check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24.png");
+    color: #f8f7f4;
+    margin-left: 4vh;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.moznostiH4 {
+    color: #f8f7f4;
+    margin-top: 6vh;
+}
+
+.pellingH2 {
+    color: #ffffff;
+    font-size: 2.8rem !important;
+}
+
+#textDiv3 {
+    margin-top: 4vh;
+    background-color: #c9b29c;
+    padding: 20px;
+}
+
+#photoDiv3 {
+    margin-top: 4vh;
+    background-color: #c9b29c;
+    padding: 10px;
+    align-content: center;
+}
+
+.mainH2 {
+    text-align: center;
+    width: 100%;
+    height: 3%;
+    color: #ffffff !important;
+    margin-bottom: -1vh;
+    font-size: 3.2rem;
+}
+
+.hr {
+    width: 40%;
+    margin: 0 auto !important;
+    color: #f8f7f4 !important;
+    margin-top: 1vh !important;
+    border: 2px solid !important;
+}
+
+.hr2 {
+    width: 40%;
+    margin: -1 auto !important;
+    color: #f8f7f4 !important;
+    margin-top: 1vh !important;
+    border: 2px solid !important;
+}
+
+#textDiv4 {
+    padding: 20px;
+    margin-top: 1vh;
+}
+
+#photoDiv4 {
+    margin-top: 5vh;
+}
+
+#photoDiv5 {
+    margin-top: 4vh;
+    background-color: #c9b29c;
+    padding: 10px;
+    align-content: center;
+}
+
+#textDiv5 {
+    margin-top: 4vh;
+    background-color: #c9b29c;
+    padding: 20px;
+}
+
+#textDiv6 {
+    padding: 20px;
+    margin-top: 1vh;
+}
+
+#photoDiv6 {
+    margin-top: 5vh;
+}
+
+
+@media (max-width: 1000px) {
+    .mainDiv {
+        display: block;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 2rem;
+    }
+
+    .photoDiv {
+        width: 100%;
+        padding: 10px;
+        align-content: center;
+    }
+
+    .navbar-collapse {
+        background-color: #7b5d4d;
+        padding: 1rem;
+    }
+
+    #photoDiv {
+        margin: 0;
+        padding-top: 30px
+    }
+
+    .textDiv {
+        width: 100%;
+    }
+
+    .textDiv p {
+        font-size: 4rem !important;
+    }
+
+    #textDiv {
+        padding-left: 37px;
+        margin-top: 1vh;
+    }
+
+    #textDiv h1 {
+        font-size: 9rem;
+    }
+
+    #textDiv button {
+        font-size: 3rem;
+        height: 140px;
+        width: 500px;
+    }
+
+    .photoDiv img {
+        width: 100% !important;
+    }
+
+    .mainH2 {
+        margin-top: 2vh;
+        font-size: 7rem;
+    }
+
+    .textDiv h2 {
+        font-size: 6rem !important;
+    }
+
+    .textDiv ul li {
+        font-size: 3rem;
+        padding: 0 !important;
+    }
+
+    .textDiv ul {
+        font-size: 5rem;
+        padding: 0 !important;
+    }
+
+    .moznostiH4 {
+        font-size: 4rem;
+    }
+
+    #photoDiv3 {
+        margin-bottom: -4vh;
+    }
+
+    #photoDiv5 {
+        margin-bottom: -4vh;
+    }
+
+    .hr {
+        width: 40%;
+        margin: 0 auto !important;
+        color: #f8f7f4 !important;
+        margin-top: 1vh !important;
+        border: 2px solid !important;
+    }
+
+    .hr2 {
+        width: 60%;
+        margin: -1 auto !important;
+        color: #f8f7f4 !important;
+        margin-top: 1vh !important;
+        border: 2px solid !important;
+    }
+
+    .salonKrasy{
+        font-size: 3.3rem!important;
+    }
+
+    #navbarNav {
+        background-color: #7c695b;
+    }
 }
