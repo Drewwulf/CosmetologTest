@@ -1,52 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
-html{
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
+html {
     padding: 20px;
+    color: #f8f7f4;
 }
-.sectionbrovy{
+.sectionbrovy {
     display: flex;
     height: 90vh;
     padding: 20px;
     background: #c9b29c;
 }
-.fhotozbrovamy{
+.fhotozbrovamy {
     width: 45%;
     height: auto;
     padding: 10px;
-
-
 }
-.fhotozbrovamy img{
+.fhotozbrovamy img {
     width: 100%;
 }
 
-.aboutbrovy{
-
+.aboutbrovy {
     width: 53%;
     align-content: center;
     padding-left: 20px;
     padding-right: 20px;
-
 }
 
-#formed{
+#formed {
     font-family: Mea Culpa;
-   font-size: 2.875rem;
-    color: #c6965A;
+    font-size: 2.875rem;
+    color: #c6965a;
     margin: 0;
-
 }
-#brovy{
+#brovy {
     font-family: tines;
-    font-size:  4.06rem;
+    font-size: 4.06rem;
     margin: 0;
-
 }
 
-#pmakeup{
+#pmakeup {
     font-family: tunnel sans;
     font-size: 1.5rem;
 }
-.zapisbutton{
+.zapisbutton {
     background-color: black;
     color: white;
     height: 38px;
@@ -58,85 +53,224 @@ html{
     transition: ease 0.2s;
     border-radius: 4px;
     font-family: tines;
-
-
 }
-.zapisbutton:hover{
+.zapisbutton:hover {
     transform: scale(1.1);
 }
-#zapisid{
+#zapisid {
     width: 100px;
 }
-.brovymake-up2section{
+.brovymake-up2section {
     height: max-content;
     padding: 20px;
-    background: #9a8677 ;
-
+    background: #9a8677;
 }
 /*object-fit translete*/
-.h3make-up{
+.h3make-up {
     text-align: center;
     font-size: 2rem;
-
-
-
 }
-.div1pery{
+.div1pery {
     width: 50%;
     padding: 10px;
-
 }
-.div1pery ul li{
+.div1pery ul li {
     margin: 10px;
     font-size: 1.2rem;
     font-weight: bold;
     list-style-image: url("check_small_23dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png");
     padding: 5px;
 
-}.div1pery ul{
+}
+.div1pery ul li::marker {
+    color: white;
+}
+
+.div1pery ul {
     padding-left: 16px;
 }
 
-.perydiv2fhoto{
+.perydiv2fhoto {
     width: 50%;
-transition: 0.5s;
+    transition: 0.5s;
     padding: 10px;
-
-
-
 }
-.perydiv2fhoto:hover{
-     transform:  scale(1.1);
-
+.perydiv2fhoto:hover {
+    transform: scale(1.1);
 }
 
-.perydiv2fhoto img{
+.perydiv2fhoto img {
     width: 100%;
     height: 100%;
-
 }
-.divflex{
-display: flex;
+.divflex {
+    display: flex;
     height: 50%;
     justify-content: space-between;
 }
 
-.psection2{
+.psection2 {
     font-size: 1.2rem;
 }
-@media (max-width:1000px){
-    .aboutbrovy{
+.foter {
+    height: 20vh;
+    display: flex;
+    padding: 20px;
+    background-color: #7c695b;
+}
+.footersection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: #f8f7f4;
+}
+.ulfhone {
+    width: 32%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+}
+.liFhone {
+    padding-bottom: 0.625rem;
+}
+
+.ulquestion {
+    width: 32%;
+    padding: 10px;
+    height: 100%;
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+}
+.ulvidguki {
+    width: 32%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+
+    color: #f8f7f4;
+}
+.lividguki {
+    width: 100%;
+    padding-bottom: 0.45rem;
+    padding-top: 0.45rem;
+}
+
+.aAbout {
+    text-decoration: none;
+    color: #f8f7f4;
+}
+@media (max-width: 1000px) {
+    h2{
+        font-size: 6rem;
+    }
+    .h3make-up{
+        font-size: 8rem;
+        text-align: left;
+    }
+    .div1pery ul li{
+        font-size: 2rem;
+    }
+
+
+    .psection2 {
+    font-size: 4rem;
+}
+    .aboutbrovy {
         width: 100%;
     }
-    .sectionbrovy{
+    .sectionbrovy {
         display: block;
+        height: auto;
     }
-    .fhotozbrovamy{
+    .fhotozbrovamy {
         width: 100%;
         padding: 0;
-
     }
 
+    .sectionbrovy {
+        display: block;
 
+        padding: 20px;
+        background: #9a8677;
+    }
+    .fhotozbovamy {
+        width: 100%;
+        padding: 0;
+    }
 
+    .zapisbutton {
+        height: 140px;
+        width: 500px;
+        font-size: 3rem;
+    }
+    .aboutbrovy {
+        width: 100%;
+        padding: 0;
+    }
+    #pmakeup {
+        font-size: 4rem;
+    }
+    #formed {
+        font-family: Mea Culpa;
+        font-size: 5.75rem;
+        color: #f8f7f4;
+        margin: 0;
+    }
+    #brovy {
+        font-family: tines;
+        font-size: 8.12rem;
+        margin: 0;
+        color: #f8f7f4;
+    }
+
+    .divopisobocive {
+        width: 100%;
+    }
+    .divflex {
+        display: block;
+    }
+    .div1pery {
+        width: 100%;
+        padding: 0;
+    }
+    .perydiv2fhoto {
+        width: 100%;
+        transition: 0.5s;
+        padding: 0;
+    }
+    .perydiv2fhoto:hover {
+        transform: scale(1.1);
+    }
+    .divfhotoobocive {
+        width: 100%;
+        padding: 0;
+    }
+    .obocivaP {
+        font-size: 3.2rem;
+    }
+    .h2korekcia {
+        font-size: 3.6rem;
+    }
+    .zapisbutton:hover {
+        transform: scale(1.1);
+    }
+    .ulfhone {
+        font-size: 2.2rem;
+    }
+    .ulquestion {
+        font-size: 2.2rem;
+    }
+    svg {
+        height: 60px;
+        width: 60px;
+    }
+    html {
+        padding: 20px;
+    }
 }
