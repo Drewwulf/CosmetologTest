@@ -30,6 +30,14 @@ body {
 .navbar > .container-xl,
 .navbar > .container-xxl {
     background-color: #7c695b;
+    height: 15vh;
+    font-size: 1.7rem;
+}
+
+.navbar {
+    margin: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .sect1 {
@@ -154,5 +162,18 @@ body {
         padding: 10px;
         border-radius: 4px;
         align-content: center;
+    }
+
+    #navbarNav {
+        background-color: #7c695b;
+    }
+
+    .navbar-collapse {
+        background-color: #7b5d4d;
+        padding: 1rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 2rem;
     }
 }
