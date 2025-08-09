@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
-html {
-    padding: 20px;
-    color: #f8f7f4;
-}
+
 .sectionbrovy {
     display: flex;
     height: 90vh;
@@ -270,7 +267,5 @@ html {
         height: 60px;
         width: 60px;
     }
-    html {
-        padding: 20px;
-    }
+
 }
