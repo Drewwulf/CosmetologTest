@@ -226,6 +226,11 @@ body
         width: 500px;
         font-size: 3rem;
     }
+    #zapisid {
+    height: 140px;
+        width: 500px;
+        font-size: 3rem;
+}
     .aboutbrovy {
         width: 100%;
         padding: 0;
