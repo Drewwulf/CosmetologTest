@@ -117,11 +117,11 @@ body {
     padding: 20px;
 }
 
-.text2 h3{
+.text2 h3 {
     font-size: 2rem;
 }
 
-.text2 p{
+.text2 p {
     font-size: 1.2rem;
 }
 
@@ -188,7 +188,27 @@ body {
         font-size: 2rem;
     }
 
-    .hloboke{
-    font-size: 5.75rem;
+    .hloboke {
+        font-size: 5.75rem;
+    }
+    .laminovanie {
+        font-size: 8rem;
+    }
+    .paragaraf {
+        font-size: 4rem;
+    }
+
+    .sect1 button {
+        color: #ffffff;
+        background-color: #000000;
+        height: 140px;
+        width: 500px;
+        margin: 10px;
+        font-size: 3rem;
+        transition: ease 0.2s;
+        font-family: tinos;
+        font-weight: bold;
+        border-radius: 4px;
+        box-shadow: 6px 4px #545454;
     }
 }
