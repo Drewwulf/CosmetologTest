@@ -132,7 +132,7 @@ body {
 .pOst {
     padding-top: 5px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .sect1 {
         display: block;
     }
