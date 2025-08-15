@@ -60,14 +60,16 @@ body {
 .hloboke {
     color: #ddc1a7;
     font-family: Mea Culpa;
+    font-size: 2.875rem;
 }
 .laminovanie {
     font-family: tinos;
-
+    font-size: 4.06rem;
     color: #f8f7f4;
 }
 .paragaraf {
     color: #f8f7f4;
+    font-size: 1.5rem;
     font-family: Funnel Sans;
 }
 .sect1 button {
@@ -115,10 +117,19 @@ body {
     padding: 20px;
 }
 
+.text2 h3{
+    font-size: 2rem;
+}
+
+.text2 p{
+    font-size: 1.2rem;
+}
+
 .headSect2 {
     color: #f8f7f4;
     text-align: center;
     font-family: tinos;
+    font-size: 2rem;
 }
 
 .footer {
