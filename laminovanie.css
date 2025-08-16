@@ -6,8 +6,10 @@ body {
     margin: 0;
 }
 .mainST {
-    background-color: #9a8677;
+    background-image:url("Untitled%20design%20(1).png");
     padding: 2%;
+    background-size: cover;
+    background-position: center;
 }
 
 .navDecoration {
