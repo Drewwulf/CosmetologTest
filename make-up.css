@@ -98,7 +98,7 @@ body {
     list-style-image: url("check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
     padding: 5px;
 }
-.navbar-brand {
+.nav-item{
     color: #ffffff !important;
 }
 .div1pery ul li::marker {
