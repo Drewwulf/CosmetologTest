@@ -23,6 +23,10 @@ body {
     color: #ffffff !important;
 }
 
+#navbarNav{
+    color: #ffffff !important;
+}
+
 .navbar > .container-fluid,
 .navbar > .container-lg,
 .navbar > .container-md,

@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
-body
-{
+body {
     margin: 0;
 }
 .sectionbrovy {
@@ -121,6 +120,13 @@ body
     font-weight: bold;
     color: #f8f7f4;
 }
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+#navbarNav {
+    color: #ffffff !important;
+}
 .ulfhone {
     width: 32%;
     height: 100%;
@@ -240,34 +246,34 @@ body
     .ulquestion {
         font-size: 2.2rem;
     }
-    svg {   
+    svg {
         height: 60px;
         width: 60px;
     }
-    
+
     #navbarNav {
         background-color: #7c695b;
     }
-    
+
     .navbar-collapse {
         background-color: #7b5d4d;
         padding: 1rem;
     }
-    
+
     .navbar-nav .nav-link {
         font-size: 2rem;
     }
-    
+
     .navbar > .container-fluid,
     .navbar > .container-lg,
     .navbar > .container-md,
     .navbar > .container-sm,
     .navbar > .container-xl,
     .navbar > .container-xxl {
-        height: auto!important;
+        height: auto !important;
     }
-    
-    .salonKrasy{
-        font-size: 3.3rem!important;
+
+    .salonKrasy {
+        font-size: 3.3rem !important;
     }
 }
