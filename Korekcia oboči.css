@@ -158,7 +158,7 @@ body
 .navbar > .container-xl,
 .navbar > .container-xxl {
     background-color: #7c695b;
-    
+    height: 15vh;
     font-size: 1.7rem;
 }
 
@@ -256,5 +256,14 @@ body
     
     .navbar-nav .nav-link {
         font-size: 2rem;
+    }
+    
+    .navbar > .container-fluid,
+    .navbar > .container-lg,
+    .navbar > .container-md,
+    .navbar > .container-sm,
+    .navbar > .container-xl,
+    .navbar > .container-xxl {
+        height: auto!important;
     }
 }

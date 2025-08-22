@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 .mainST {
-    background-image:url("Untitled%20design%20(1).png");
+    background-image: url("Untitled%20design%20(1).png");
     padding: 2%;
     background-size: cover;
     background-position: center;
@@ -290,11 +290,11 @@ body {
     }
 
     .navbar > .container-fluid,
-.navbar > .container-lg,
-.navbar > .container-md,
-.navbar > .container-sm,
-.navbar > .container-xl,
+    .navbar > .container-lg,
+    .navbar > .container-md,
+    .navbar > .container-sm,
+    .navbar > .container-xl,
     .navbar > .container-xxl {
-        height: auto!important;
+        height: auto !important;
     }
 }
