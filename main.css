@@ -31,7 +31,7 @@
 }
 
 .navDecoration {
-    height: 10vh;
+
     margin: -1vh;
 }
 
@@ -50,7 +50,7 @@
 .navbar > .container-xl,
 .navbar > .container-xxl {
     background-color: #7c695b;
-    height: 15vh;
+
     font-size: 1.7rem;
 }
 
@@ -130,7 +130,6 @@
 }
 
 .navDecoration {
-    height: 10vh;
     margin: -1vh;
 }
 
@@ -320,11 +319,13 @@
 }
 
 
-
-
 @media (max-width: 1000px) {
     .mainDiv {
         display: block;
+    }
+
+    .navbar{
+        height: auto;
     }
 
     .navbar-nav .nav-link {
@@ -429,3 +430,4 @@
         background-color: #7c695b;
     }
 }
+
