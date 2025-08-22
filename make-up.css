@@ -131,6 +131,7 @@ body {
 
 .psection2 {
     font-size: 1.2rem;
+    font-family: tines;
 }
 .foter {
     height: 23vh;
@@ -207,6 +208,7 @@ body {
 
     .psection2 {
         font-size: 4rem;
+        font-family: tines;
     }
     .aboutbrovy {
         width: 100%;
