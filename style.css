@@ -71,7 +71,7 @@ body{
 }
 
 .navDecoration{
-    height: 10vh;
+
     margin: -1vh;
 }
 
@@ -117,7 +117,6 @@ body{
 .navbar > .container-xl,
 .navbar > .container-xxl {
     background-color: #7c695b;
-    height: 15vh;
     font-size: 1.7rem;
 }
 
