@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
-body
-{
+body {
     color: #f8f7f4;
     margin: 0;
-
 }
 
 .navbar > .container-fluid,
@@ -62,7 +60,7 @@ body
 }
 .zapisbutton {
     background-color: black;
-   color: #f8f7f4;
+    color: #f8f7f4;
     height: 38px;
     width: 200px;
     display: block;
@@ -99,7 +97,6 @@ body
     font-weight: bold;
     list-style-image: url("check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
     padding: 5px;
-
 }
 .div1pery ul li::marker {
     color: white;
@@ -185,25 +182,23 @@ body
     color: #f8f7f4;
 }
 @media (max-width: 1000px) {
-    h2{
+    h2 {
         font-size: 6rem;
     }
-    .h3make-up{
+    .h3make-up {
         font-size: 8rem;
         text-align: left;
     }
-    .div1pery ul li{
+    .div1pery ul li {
         font-size: 2.5rem;
     }
-    .h2permake-up{
+    .h2permake-up {
         font-size: 6rem;
     }
 
-
-
     .psection2 {
-    font-size: 4rem;
-}
+        font-size: 4rem;
+    }
     .aboutbrovy {
         width: 100%;
     }
@@ -233,10 +228,10 @@ body
         font-size: 3rem;
     }
     #zapisid {
-    height: 140px;
+        height: 140px;
         width: 500px;
         font-size: 3rem;
-}
+    }
     .aboutbrovy {
         width: 100%;
         padding: 0;
@@ -299,7 +294,7 @@ body
         width: 60px;
         margin: 20px;
     }
- #navbarNav {
+    #navbarNav {
         background-color: #7c695b;
     }
 
@@ -318,6 +313,10 @@ body
     .navbar > .container-sm,
     .navbar > .container-xl,
     .navbar > .container-xxl {
-        height: auto!important;
+        height: auto !important;
+    }
+
+    .salonKrasy {
+        font-size: 3.3rem !important;
     }
 }

@@ -294,4 +294,8 @@ body {
     .navbar > .container-xxl {
         height: auto !important;
     }
+
+    .salonKrasy {
+        font-size: 3.3rem !important;
+    }
 }
