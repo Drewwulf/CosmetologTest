@@ -16,7 +16,11 @@
     width: 50%;
 }
 
+<<<<<<< HEAD
 .textDiv p {
+=======
+.textDiv p{
+>>>>>>> origin/main
     font-family: tinos;
 }
 
@@ -224,7 +228,11 @@
     align-content: center;
 }
 
+<<<<<<< HEAD
 #photoDiv1 p {
+=======
+#photoDiv1 p{
+>>>>>>> origin/main
     font-family: tinos;
 }
 
