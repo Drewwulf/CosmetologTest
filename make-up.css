@@ -15,17 +15,30 @@ body {
     background-color: #7c695b;
     height: 15vh;
     font-size: 1.7rem;
+     font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    position: fixed;
+    top:0;
+
 }
 
 .navbar {
     margin: 0 !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+
+}
+.navbar-brand{
+  font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    text-shadow: 13px 13px 13px black;
+
 }
 .sectionbrovy {
     display: flex;
     padding: 20px;
     background: #c9b29c;
+    margin-top: 15vh;
 }
 .fhotozbrovamy {
     width: 45%;
@@ -103,7 +116,10 @@ body {
 
 .nav-link{
     color: #ffffff !important;
+    text-shadow: 13px 13px 13px black;
+
 }
+
 .div1pery ul li::marker {
     color: white;
 }
@@ -219,6 +235,7 @@ body {
     .sectionbrovy {
         display: block;
         height: auto;
+        margin-top: 5vh;
     }
     .fhotozbrovamy {
         width: 100%;
@@ -327,7 +344,8 @@ body {
     .navbar > .container-sm,
     .navbar > .container-xl,
     .navbar > .container-xxl {
-        height: auto !important;
+        height: 5vh!important;
+
     }
 
     .salonKrasy {
