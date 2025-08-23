@@ -35,7 +35,7 @@ body {
 }
 #pmakeup {
     font-family: tunnel sans;
-    font-size: 1.5rem!important;
+    font-size: 1.5rem;
     color: #f8f7f4;
 }
 .zapisbutton {
@@ -236,7 +236,7 @@ body {
         padding: 0;
     }
     .obocivaP {
-        font-size: 4rem;
+        font-size: 3rem!important;
     }
     .h2korekcia {
         font-size: 6rem;
@@ -279,5 +279,13 @@ body {
 
     .salonKrasy {
         font-size: 3.3rem !important;
+    }
+    
+    .pmakeup{
+        font-size: 2rem!important;
+    }
+    
+    .ULobociva{
+        font-size: 1.5rem!important;
     }
 }
