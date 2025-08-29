@@ -125,3 +125,37 @@
     font-size: 1.8rem;
     margin-left: 2vh;
 }
+
+#textDiv2{
+    background-color: #c9b29c;
+    padding-top: 7vh;
+}
+
+#textDiv2 li{
+    margin-bottom: 2vh;
+}
+
+#photoDiv{
+    width: 100%;
+}
+
+#photoDiv img{
+    width: 100%;
+}
+
+#textDiv3{
+    padding-top: 7vh;
+}
+
+#textDiv3 li{
+    margin-bottom: 2vh;
+}
+
+#textDiv4{
+    background-color: #c9b29c;
+    padding-top: 7vh;
+}
+
+#textDiv4 li{
+    margin-bottom: 2vh;
+}
