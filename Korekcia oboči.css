@@ -2,11 +2,7 @@
 body {
     margin: 0;
 }
-.sectionbrovy {
-    display: flex;
-    padding: 20px;
-    background: #9a8677;
-}
+
 .fhotozbovamy {
     width: 45%;
     padding: 10px;
@@ -166,6 +162,22 @@ body {
     background-color: #7c695b;
     height: 15vh;
     font-size: 1.7rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to top,#7c695b,#453931);
+}
+.navbar-brand {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    text-shadow: 13px 13px 13px black;
+}
+.sectionbrovy {
+    display: flex;
+    padding: 20px;
+    background: #c9b29c;
+    margin-top: 15vh;
 }
 
 .navbar {
@@ -174,9 +186,12 @@ body {
     padding-bottom: 0 !important;
 }
 
-.nav-link{
+.nav-link {
     color: #ffffff !important;
+    text-shadow: 13px 13px 13px black;
 }
+
+
 
 .lividguki {
     width: 100%;
@@ -191,9 +206,18 @@ body {
 @media (max-width: 1000px) {
     .sectionbrovy {
         display: block;
-
+        height: auto;
+        margin-top: 5vh;
         padding: 20px;
         background: #9a8677;
+    }
+    .navbar > .container-fluid,
+    .navbar > .container-lg,
+    .navbar > .container-md,
+    .navbar > .container-sm,
+    .navbar > .container-xl,
+    .navbar > .container-xxl {
+        height: 5vh !important;
     }
     .fhotozbovamy {
         width: 100%;
@@ -267,15 +291,7 @@ body {
     .navbar-nav .nav-link {
         font-size: 2rem;
     }
-
-    .navbar > .container-fluid,
-    .navbar > .container-lg,
-    .navbar > .container-md,
-    .navbar > .container-sm,
-    .navbar > .container-xl,
-    .navbar > .container-xxl {
-        height: auto !important;
-    }
+    
 
     .salonKrasy {
         font-size: 3.3rem !important;
