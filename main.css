@@ -59,7 +59,6 @@
 }
 
 .section {
-    background-color: #9a8677;
 }
 
 .footer {
@@ -152,7 +151,6 @@
 }
 
 .section {
-    background-color: #9a8677;
 }
 
 .footer {
@@ -252,13 +250,13 @@
 
 #textDiv3 {
     margin-top: 4vh;
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.90);
     padding: 20px;
 }
 
 #photoDiv3 {
     margin-top: 4vh;
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.90);
     padding: 10px;
     align-content: center;
 }
@@ -299,14 +297,14 @@
 
 #photoDiv5 {
     margin-top: 4vh;
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.90);
     padding: 10px;
     align-content: center;
 }
 
 #textDiv5 {
     margin-top: 4vh;
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.90);
     padding: 20px;
 }
 
