@@ -63,11 +63,11 @@ body {
 .procedurH1 {
     color: #ffffff;
     text-align: center;
-    border: double;
-    width: 40%;
+    text-shadow: 3px 3px #000000;
+    width: 100%;
     margin: 0 auto;
     padding: 10px;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.artmarblestudio.ru%2Farticles%2Fo-samyx-czennyx-porodax-mramora-goluboj-i-belyj%2F&psig=AOvVaw3Js0ibomRgCnTmAt_714Pv&ust=1752338321327000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDvvIuftY4DFQAAAAAdAAAAABAE");
+    font-size: 3rem;
 }
 
 .navDecoration {
