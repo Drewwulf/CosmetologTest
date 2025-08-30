@@ -6,6 +6,7 @@ body {
     margin: 0;
 }
 
+
 .navbar > .container-fluid,
 .navbar > .container-lg,
 .navbar > .container-md,
@@ -41,6 +42,7 @@ body {
     display: flex;
     padding: 20px;
     margin-top: 15vh;
+    color: #f8f7f4;
 }
 .fhotozbrovamy {
     width: 45%;
@@ -97,6 +99,7 @@ body {
 .brovymake-up2section {
     height: max-content;
     padding: 20px;
+    color: #f8f7f4;
 }
 /*object-fit translete*/
 .h3make-up {
