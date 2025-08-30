@@ -6,7 +6,6 @@ body {
     margin: 0;
 }
 .mainST {
-    background-color: #9a8677;
     padding: 2%;
 }
 
@@ -52,7 +51,7 @@ body {
 .sect1 {
     display: flex;
     padding: 20px;
-    background: #c9b29c;
+
     margin-top: 15vh;
     text-align: left;
 }
@@ -107,6 +106,7 @@ body {
 
 .div2 {
     display: flex;
+
 }
 .div3 {
     display: flex;

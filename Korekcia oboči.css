@@ -61,7 +61,6 @@ body {
 }
 .sectionobocive {
     padding: 20px;
-    background-color: #9a8677;
 }
 .divopisobocive {
     width: 50%;
@@ -176,7 +175,6 @@ body {
 .sectionbrovy {
     display: flex;
     padding: 20px;
-    background: #c9b29c;
     margin-top: 15vh;
 }
 

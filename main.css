@@ -174,10 +174,6 @@
     height: 15vh;
 }
 
-.section {
-    background-color: #9a8677;
-}
-
 .foter {
     height: 23vh;
     display: flex;
@@ -340,7 +336,7 @@
 
 #photoDiv3 {
     margin-top: 4vh;
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.9);
     padding: 10px;
     align-content: center;
 }
@@ -385,14 +381,14 @@
 
 #photoDiv5 {
     margin-top: 4vh;
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.9);
     padding: 10px;
     align-content: center;
 }
 
 #textDiv5 {
     margin-top: 4vh;
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.9);
     padding: 20px;
 }
 

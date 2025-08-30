@@ -54,7 +54,7 @@ body {
 .sect1 {
     display: flex;
     padding: 20px;
-    background: #c9b29c;
+    background: rgba(201, 178, 156, 0.9);
     margin-top: 15vh;
     text-align: left;
 }
