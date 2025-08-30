@@ -35,14 +35,6 @@
     margin: -1vh;
 }
 
-.nav-link {
-    color: #ffffff !important;
-}
-
-.navbar-brand {
-    color: #ffffff !important;
-}
-
 .navbar > .container-fluid,
 .navbar > .container-lg,
 .navbar > .container-md,
@@ -50,16 +42,43 @@
 .navbar > .container-xl,
 .navbar > .container-xxl {
     background-color: #7c695b;
+    height: 15vh;
     font-size: 1.7rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to top,#7c695b,#453931);
+}
+.navbar-brand {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    text-shadow: 13px 13px 13px black;
+    color: #f8f7f4 !important;
+
+}
+.section {
+    margin-top: 15vh;
+}
+
+
+
+.navbar {
+    margin: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    text-shadow: 13px 13px 13px black;
 }
 
 .salonKrasy {
     font-size: 2.2rem !important;
 }
 
-.section {
-    background-color: #9a8677;
-}
+
 
 .footer {
     background-color: #7c695b;
@@ -153,10 +172,6 @@
 .navbar > .container-xxl {
     background-color: #7c695b;
     height: 15vh;
-}
-
-.section {
-    background-color: #9a8677;
 }
 
 .foter {
@@ -322,7 +337,7 @@
 
 #photoDiv3 {
     margin-top: 4vh;
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.9);
     padding: 10px;
     align-content: center;
 }
@@ -367,14 +382,14 @@
 
 #photoDiv5 {
     margin-top: 4vh;
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.9);
     padding: 10px;
     align-content: center;
 }
 
 #textDiv5 {
     margin-top: 4vh;
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.9);
     padding: 20px;
 }
 
@@ -388,6 +403,21 @@
 }
 
 @media (max-width: 1000px) {
+    .section {
+        display: block;
+        height: auto;
+        margin-top: 5vh;
+        padding: 20px;
+        background: #9a8677;
+    }
+    .navbar > .container-fluid,
+    .navbar > .container-lg,
+    .navbar > .container-md,
+    .navbar > .container-sm,
+    .navbar > .container-xl,
+    .navbar > .container-xxl {
+        height: 5vh !important;
+    }
     .mainDiv {
         display: block;
     }
@@ -420,6 +450,7 @@
     svg {
         height: 60px;
         width: 60px;
+        margin: 20px;
     }
 
     #photoDiv {
@@ -509,12 +540,5 @@
         background-color: #7c695b;
     }
 
-    .navbar > .container-fluid,
-    .navbar > .container-lg,
-    .navbar > .container-md,
-    .navbar > .container-sm,
-    .navbar > .container-xl,
-    .navbar > .container-xxl {
-        height: auto !important;
-    }
+
 }

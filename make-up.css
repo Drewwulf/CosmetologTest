@@ -6,6 +6,7 @@ body {
     margin: 0;
 }
 
+
 .navbar > .container-fluid,
 .navbar > .container-lg,
 .navbar > .container-md,
@@ -15,6 +16,11 @@ body {
     background-color: #7c695b;
     height: 15vh;
     font-size: 1.7rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to top,#7c695b,#453931);
 }
 
 .navbar {
@@ -22,10 +28,21 @@ body {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
+.navbar-brand {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    text-shadow: 13px 13px 13px black;
+}
+.nav-link {
+    color: #ffffff !important;
+    text-shadow: 13px 13px 13px black;
+}
+
 .sectionbrovy {
     display: flex;
     padding: 20px;
-    background: #c9b29c;
+    margin-top: 15vh;
+    color: #f8f7f4;
 }
 .fhotozbrovamy {
     width: 45%;
@@ -82,7 +99,7 @@ body {
 .brovymake-up2section {
     height: max-content;
     padding: 20px;
-    background: #9a8677;
+    color: #f8f7f4;
 }
 /*object-fit translete*/
 .h3make-up {
@@ -101,9 +118,7 @@ body {
     padding: 5px;
 }
 
-.nav-link{
-    color: #ffffff !important;
-}
+
 .div1pery ul li::marker {
     color: white;
 }
@@ -184,9 +199,9 @@ body {
     padding-top: 0.45rem;
 }
 
-.salonKrasy{
-    color: #ffffff!important;
-    font-size: 2rem!important;
+.salonKrasy {
+    color: #ffffff !important;
+    font-size: 2rem !important;
 }
 
 .aAbout {
@@ -206,7 +221,7 @@ body {
     }
     .h2permake-up {
         font-size: 6rem;
-        text-shadow: 1px 15px 50px rgba(0,0,0,0.4)
+        text-shadow: 1px 15px 50px rgba(0, 0, 0, 0.4);
     }
 
     .psection2 {
@@ -219,6 +234,7 @@ body {
     .sectionbrovy {
         display: block;
         height: auto;
+        margin-top: 5vh;
     }
     .fhotozbrovamy {
         width: 100%;
@@ -327,7 +343,7 @@ body {
     .navbar > .container-sm,
     .navbar > .container-xl,
     .navbar > .container-xxl {
-        height: auto !important;
+        height: 5vh !important;
     }
 
     .salonKrasy {

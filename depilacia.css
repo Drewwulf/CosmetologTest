@@ -6,25 +6,12 @@ body {
     margin: 0;
 }
 .mainST {
-    background-color: #9a8677;
     padding: 2%;
 }
 
 .navDecoration {
     height: 10vh;
     margin: -1vh;
-}
-
-.nav-link {
-    color: #ffffff !important;
-}
-
-.navbar-brand {
-    color: #ffffff !important;
-}
-
-#navbarNav{
-    color: #ffffff !important;
 }
 
 .navbar > .container-fluid,
@@ -36,7 +23,19 @@ body {
     background-color: #7c695b;
     height: 15vh;
     font-size: 1.7rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to top,#7c695b,#453931);
 }
+.navbar-brand  {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    text-shadow: 13px 13px 13px black;
+    color: #f8f7f4 !important;
+}
+
 
 .navbar {
     margin: 0 !important;
@@ -44,14 +43,22 @@ body {
     padding-bottom: 0 !important;
 }
 
-.salonKrasy{
-    font-size: 2rem!important;
+.nav-link {
+     color: #f8f7f4 !important;
+    text-shadow: 13px 13px 13px black !important;
 }
 
 .sect1 {
     display: flex;
+    padding: 20px;
+
+    margin-top: 15vh;
     text-align: left;
 }
+.salonKrasy{
+    font-size: 2rem !important;
+}
+
 
 .image1 {
     width: 45%;
@@ -99,6 +106,7 @@ body {
 
 .div2 {
     display: flex;
+
 }
 .div3 {
     display: flex;
@@ -208,6 +216,18 @@ body {
 @media (max-width: 1000px) {
     .sect1 {
         display: block;
+        height: auto;
+        margin-top: 5vh;
+        padding: 20px;
+        background: #9a8677;
+    }
+    .navbar > .container-fluid,
+    .navbar > .container-lg,
+    .navbar > .container-md,
+    .navbar > .container-sm,
+    .navbar > .container-xl,
+    .navbar > .container-xxl {
+        height: 5vh !important;
     }
     .image1 {
         width: 100%;
@@ -294,14 +314,7 @@ body {
         width: 60px;
         margin: 20px;
     }
-    .navbar > .container-fluid,
-    .navbar > .container-lg,
-    .navbar > .container-md,
-    .navbar > .container-sm,
-    .navbar > .container-xl,
-    .navbar > .container-xxl {
-        height: auto !important;
-    }
+
 
     .salonKrasy {
         font-size: 3.3rem !important;
