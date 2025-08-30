@@ -117,10 +117,7 @@ body {
     font-weight: bold;
     color: #f8f7f4;
 }
-.salonKrasy {
-    color: #ffffff !important;
-    font-size: 2rem!important;
-}
+
 
 .ulfhone {
     width: 32%;
@@ -187,6 +184,10 @@ body {
 .nav-link {
     color: #ffffff !important;
     text-shadow: 13px 13px 13px black;
+}
+.salonKrasy {
+    color: #ffffff !important;
+    font-size: 2rem!important;
 }
 
 

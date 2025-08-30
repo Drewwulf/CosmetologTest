@@ -62,12 +62,6 @@
     text-decoration: none;
     color: #f8f7f4;
 }
-
-.salonKrasy {
-    color: #ffffff !important;
-    font-size: 2rem!important;
-}
-
 .navbar > .container-fluid,
 .navbar > .container-lg,
 .navbar > .container-md,
@@ -77,7 +71,18 @@
     background-color: #7c695b;
     height: 15vh;
     font-size: 1.7rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to top,#7c695b,#453931);
 }
+.navbar-brand {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    text-shadow: 13px 13px 13px black;
+}
+
 
 .navbar {
     margin: 0 !important;
@@ -85,12 +90,19 @@
     padding-bottom: 0 !important;
 }
 
-.nav-link{
+.nav-link {
     color: #ffffff !important;
+    text-shadow: 13px 13px 13px black;
+}
+.salonKrasy {
+    color: #ffffff !important;
+    font-size: 2rem!important;
 }
 
 .sect1{
     display: flex;
+    padding: 20px;
+    margin-top: 15vh;
 }
 
 .photoDiv{
