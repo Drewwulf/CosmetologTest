@@ -43,13 +43,13 @@
     list-style-type: none;
     text-align: left;
 }
+
 .ulvidguki {
     width: 32%;
     height: 100%;
     padding: 10px;
     margin: 0;
     list-style-type: none;
-
     color: #f8f7f4;
 }
 .lividguki {
@@ -103,7 +103,6 @@
 
 .textDiv{
     width: 67%;
-    background-color: #9a8677;
 }
 
 .h2korekcia{
@@ -127,7 +126,7 @@
 }
 
 #textDiv2{
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.9);
     padding-top: 7vh;
 }
 
@@ -152,7 +151,7 @@
 }
 
 #textDiv4{
-    background-color: #c9b29c;
+    background-color: rgba(201, 178, 156, 0.9);
     padding-top: 7vh;
 }
 
