@@ -159,3 +159,41 @@
 #textDiv4 li{
     margin-bottom: 2vh;
 }
+
+#textDiv5 li{
+    margin-bottom: 2vh;
+}
+
+#textDiv5{
+    padding-top: 7vh;
+}
+
+@media (max-width: 1000px){
+    .photoDiv{
+        display: none;
+    }
+
+    .textDiv{
+        width: 100%;
+    }
+
+    #textDiv5 h2{
+        font-size: 5.5rem;
+    }
+
+    .textDiv li{
+        font-size: 2.4rem;
+    }
+
+    .ulfhone {
+        font-size: 2.2rem;
+    }
+    .ulquestion {
+        font-size: 2.2rem;
+    }
+    svg {
+        height: 60px;
+        width: 60px;
+        margin: 20px;
+    }
+}
