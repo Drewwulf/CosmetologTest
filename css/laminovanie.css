@@ -132,6 +132,7 @@ body {
     color: #f8f7f4;
     font-family: tinos;
     padding: 20px;
+    background-color: 0;
 }
 
 .text2 h3 {
@@ -250,6 +251,7 @@ body {
         color: #f8f7f4;
         font-family: tinos;
         padding: 20px;
+        background-color: 0;
     }
     .image3 {
         width: 100%;

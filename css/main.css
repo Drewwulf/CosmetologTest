@@ -312,7 +312,7 @@
 }
 
 .moznostiUl {
-    list-style-image: url("check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24.png");
+    list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24.png");
     color: #f8f7f4;
     margin-left: 4vh;
     font-size: 1.3rem;
