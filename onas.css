@@ -1,0 +1,35 @@
+.photo1{
+    width: 100%;
+    height: 70vh;
+    background-image: url("unnamed.webp");
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+}
+
+.mainH{
+    color: #ffffff;
+    font-size: 7.9rem;
+}
+
+.mainP{
+    color: #ffffff;
+    font-size: 2.2rem;
+    padding: 10vh;
+    margin: 0;
+}
+
+.text1{
+    background:linear-gradient(to right,#7c7a7b,#525153);
+}
+
+.photo1 button{
+    background-color: #282828;
+    color: #ffffff;
+    padding: 1vh;
+    width: 16vh;
+    margin-right: -32vh;
+    margin-left: 34vh;
+    font-size: 1.5rem;
+    margin-bottom: 25vh;
+}
