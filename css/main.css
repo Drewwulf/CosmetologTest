@@ -397,8 +397,23 @@
 #photoDiv6 {
     margin-top: 5vh;
 }
+.ULobociva{
+    font-size: 1.3rem;
+    font-weight: 500;
+    list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
+    padding-left: 25px !important;
+    color: #f8f7f4;
+}
+.liobocie{
+     color: #f8f7f4;
+}
 
 @media (max-width: 1000px) {
+    .ULobociva{
+        font-size: 2.5rem!important;
+        font-weight: bold;
+        padding-left: 25px !important;
+    }
     .section {
         display: block;
         height: auto;
