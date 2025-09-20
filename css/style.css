@@ -78,6 +78,7 @@ body {
 
 .salonKrasy{
     font-size: 2rem!important;
+    height: 100%;
 }
 
 
@@ -85,7 +86,7 @@ body {
 .divDark {
     height: 100%;
     width: 100%;
-    background-color: rgba(81, 88, 51, 0.17);
+    background-color: rgba(30, 30, 30, 0.21);
 }
 
 .footer {
@@ -139,7 +140,6 @@ body {
 
 .nav-link {
     color: #ffffff !important;
-    text-shadow: 13px 13px 13px black;
 }
 
 .foter {
@@ -263,4 +263,8 @@ body {
         font-size: 3.3rem!important;
     }
 }
-/*попробуй поміняти дів з класом row щоб того марджіна не було*/
+
+.logo{
+   height: 100%;
+
+}
