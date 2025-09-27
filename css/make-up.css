@@ -19,7 +19,7 @@ body {
     font-weight: bold;
     position: fixed;
     top: 0;
-    background: linear-gradient(to top,#7c695b,#453931);
+    background: linear-gradient(to top, #7c695b, #453931);
 }
 
 .navbar {
@@ -65,7 +65,7 @@ body {
 #formed {
     font-family: Mea Culpa;
     font-size: 2.875rem;
-    color: #c6965a;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -110,6 +110,14 @@ body {
 .div1pery {
     width: 50%;
     padding: 10px;
+}
+
+.psection2{
+    color: #ffffff;
+}
+
+.ulpery li{
+    color: #ffffff;
 }
 
 .div1pery ul li {
@@ -213,14 +221,14 @@ body {
     color: #f8f7f4;
 }
 
-.h2Div h2{
+.h2Div h2 {
     color: #ffffff;
     width: 100%;
     text-align: center;
     font-size: 4rem;
 }
 
-.pDiv{
+.pDiv {
     color: #ffffff;
     width: 100%;
     font-size: 1.7rem;
@@ -229,46 +237,59 @@ body {
     margin-bottom: 3vh;
 }
 
-.ulDiv{
+.ulDiv {
     color: #ffffff;
     width: 40%;
     list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
-    background-color: rgb(108, 108, 108);
+    background-color: #655143;
     border-radius: 20px;
+    box-shadow: 0 0 20px black;
 }
 
-.div1pery p{
+.div1pery p {
     font-size: 1.7rem;
-    background-color: rgba(49, 47, 47, 0.85);
+    background-color: #745e4e;
     margin: 0;
     border-radius: 10px 10px 0 0;
 }
 
-.div1pery ul li{
+.div1pery ul li {
     font-size: 1.4rem;
 }
 
-.ulDiv ul{
+.div1pery ul {
+    background-color: #655143;
+}
+
+.ulDiv ul {
     width: 100%;
     font-size: 1.4rem;
 }
 
-.ulDiv ul li{
+.ulDiv ul li {
     margin-top: 1vh;
 }
 
-.ulDiv p{
+.ulDiv p {
     font-size: 1.7rem;
-    background-color: rgba(49, 47, 47, 0.85);
+    background-color: #745e4e;
     border-radius: 13px;
     padding: 5px;
     padding-left: 15px;
 }
 
-.ulMainDiv{
+.ulMainDiv {
     display: flex;
     justify-content: center;
     margin-bottom: 5vh;
+}
+
+.divMain{
+    width: 50%;
+}
+
+.div1pery{
+    width: 100%;
 }
 
 .hr {
@@ -279,29 +300,30 @@ body {
     border: 2px solid !important;
 }
 
-.ulDiv2{
+.ulDiv2 {
     color: #ffffff;
     width: 40%;
     list-style-image: url("/img/close_small_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png");
-    background-color: rgb(108, 108, 108);
+    background-color: #655143;
     border-radius: 20px;
     margin-left: 5vh;
+    box-shadow: 0 0 20px black;
 }
 
-.ulDiv2 p{
+.ulDiv2 p {
     font-size: 1.7rem;
-    background-color: rgba(49, 47, 47, 0.85);
+    background-color: #745e4e;
     border-radius: 13px;
     padding: 5px;
     padding-left: 15px;
 }
 
-.ulDiv2 ul{
+.ulDiv2 ul {
     width: 100%;
     font-size: 1.4rem;
 }
 
-.ulDiv2 ul li{
+.ulDiv2 ul li {
     margin-top: 1vh;
 }
 
