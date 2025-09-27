@@ -20,7 +20,7 @@ body {
 #formed {
     font-family: Mea Culpa;
     font-size: 2.875rem;
-    color: #ddc1a7;
+    color: #f8f7f4;
     margin: 0;
 }
 #brovy {
@@ -76,7 +76,7 @@ body {
     color: #f8f7f4;
 }
 .obocivaP {
-    font-size: 1.5rem!important;
+    font-size: 1.5rem !important;
     font-family: tines;
     color: #f8f7f4;
 }
@@ -117,7 +117,6 @@ body {
     font-weight: bold;
     color: #f8f7f4;
 }
-
 
 .ulfhone {
     width: 32%;
@@ -162,7 +161,7 @@ body {
     font-weight: bold;
     position: fixed;
     top: 0;
-    background: linear-gradient(to top,#7c695b,#453931);
+    background: linear-gradient(to top, #7c695b, #453931);
 }
 .navbar-brand {
     font-family: "Cormorant Garamond", serif;
@@ -187,10 +186,9 @@ body {
 }
 .salonKrasy {
     color: #ffffff !important;
-    font-size: 2rem!important;
+    font-size: 2rem !important;
+    height: 100%;
 }
-
-
 
 .lividguki {
     width: 100%;
@@ -258,11 +256,11 @@ body {
         width: 100%;
         padding: 0;
     }
-    .divfhotoobocive img{
-        width: 100%;    
+    .divfhotoobocive img {
+        width: 100%;
     }
     .obocivaP {
-        font-size: 4rem!important;
+        font-size: 4rem !important;
     }
     .h2korekcia {
         font-size: 6rem !important;
@@ -295,18 +293,21 @@ body {
     .navbar-nav .nav-link {
         font-size: 2rem;
     }
-    
 
     .salonKrasy {
         font-size: 3.3rem !important;
     }
-    
-    .pmakeup{
-        font-size: 2rem!important;
+
+    .pmakeup {
+        font-size: 2rem !important;
     }
-    
-    .ULobociva{
-        font-size: 2.5rem!important;
+
+    .ULobociva {
+        font-size: 2.5rem !important;
         font-weight: bold;
     }
+}
+
+.logo {
+    height: 100%;
 }
