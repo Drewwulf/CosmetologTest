@@ -20,10 +20,12 @@ body {
     position: fixed;
     top: 0;
     background: linear-gradient(to top, #7c695b, #453931);
+
 }
 
 .div1pery{
     width: 50%;
+
 }
 
 .navbar {
@@ -69,7 +71,9 @@ body {
 #formed {
     font-family: Mea Culpa;
     font-size: 2.875rem;
+
     color: #ffffff;
+
     margin: 0;
 }
 
@@ -218,6 +222,7 @@ body {
 .salonKrasy {
     color: #ffffff !important;
     font-size: 2rem !important;
+    height: 100%;
 }
 
 .aAbout {
@@ -260,6 +265,7 @@ body {
 .div1pery ul li {
     font-size: 1.4rem;
 }
+
 
 .div1pery ul {
     background-color: #655143;
@@ -495,4 +501,7 @@ body {
     .salonKrasy {
         font-size: 3.3rem !important;
     }
+}
+.logo {
+    height: 100%;
 }
