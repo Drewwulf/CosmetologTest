@@ -367,6 +367,7 @@
 
 .salonKrasy {
     font-size: 2rem !important;
+      height: 100%;
 }
 
 #textDiv4 {
@@ -545,7 +546,7 @@
 
     .salonKrasy {
         font-size: 3.3rem !important;
-        height: 100%;
+
     }
 
     #navbarNav {

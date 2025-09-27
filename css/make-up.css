@@ -206,6 +206,8 @@ body {
 .salonKrasy {
     color: #ffffff !important;
     font-size: 2rem !important;
+        height: 100%;
+
 }
 
 .aAbout {
@@ -467,7 +469,6 @@ body {
 
     .salonKrasy {
         font-size: 3.3rem !important;
-        height: 100%;
     }
 
 }
