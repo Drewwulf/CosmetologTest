@@ -26,7 +26,7 @@ body {
     background-image: url("https://www.bp-ba.sk/wp-content/uploads/2023/06/1-9.jpg");
 }
 #divKaderníctvo{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnMNHFABpn5FzWE22ZpIM78FCPP55jkPNI8g&s")
+    background-image: url("https://duyn491kcolsw.cloudfront.net/files/11/117/117ufl.jpg?ph=7b1519ec8f")
 }
 
 .div1 {
@@ -232,6 +232,9 @@ body {
     }
 
     #divKozmetika {
+        width: 63%;
+    }
+    #divKaderníctvo{
         width: 63%;
     }
 
