@@ -20,6 +20,12 @@ body {
     position: fixed;
     top: 0;
     background: linear-gradient(to top, #7c695b, #453931);
+
+}
+
+.div1pery{
+    width: 50%;
+
 }
 
 .navbar {
@@ -65,7 +71,9 @@ body {
 #formed {
     font-family: Mea Culpa;
     font-size: 2.875rem;
-    color: #ddc1a7;
+
+    color: #ffffff;
+
     margin: 0;
 }
 
@@ -108,8 +116,16 @@ body {
 }
 
 .div1pery {
-    width: 50%;
+    width: 49%;
     padding: 10px;
+}
+
+.psection2{
+    color: #ffffff;
+}
+
+.ulpery li{
+    color: #ffffff;
 }
 
 .div1pery ul li {
@@ -234,19 +250,25 @@ body {
     color: #ffffff;
     width: 40%;
     list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
-    background-color: rgb(108, 108, 108);
+    background-color: #655143;
     border-radius: 20px;
+    box-shadow: 0 0 20px black;
 }
 
 .div1pery p {
     font-size: 1.7rem;
-    background-color: rgba(49, 47, 47, 0.85);
+    background-color: #745e4e;
     margin: 0;
     border-radius: 10px 10px 0 0;
 }
 
 .div1pery ul li {
     font-size: 1.4rem;
+}
+
+
+.div1pery ul {
+    background-color: #655143;
 }
 
 .ulDiv ul {
@@ -260,7 +282,7 @@ body {
 
 .ulDiv p {
     font-size: 1.7rem;
-    background-color: rgba(49, 47, 47, 0.85);
+    background-color: #745e4e;
     border-radius: 13px;
     padding: 5px;
     padding-left: 15px;
@@ -270,6 +292,15 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 5vh;
+    width: 100%;
+}
+
+.divMain{
+    width: 50%;
+}
+
+.div1pery{
+    width: 100%;
 }
 
 .hr {
@@ -284,14 +315,15 @@ body {
     color: #ffffff;
     width: 40%;
     list-style-image: url("/img/close_small_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png");
-    background-color: rgb(108, 108, 108);
+    background-color: #655143;
     border-radius: 20px;
     margin-left: 5vh;
+    box-shadow: 0 0 20px black;
 }
 
 .ulDiv2 p {
     font-size: 1.7rem;
-    background-color: rgba(49, 47, 47, 0.85);
+    background-color: #745e4e;
     border-radius: 13px;
     padding: 5px;
     padding-left: 15px;
