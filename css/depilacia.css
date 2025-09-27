@@ -141,13 +141,6 @@ body {
     font-size: 1.2rem;
 }
 
-.headSect2 {
-    color: #f8f7f4;
-    text-align: center;
-    font-family: tinos;
-    font-size: 2rem;
-}
-
 .footer {
     background-color: #7c695b;
     text-align: center;
@@ -221,6 +214,24 @@ body {
 }
 .liobocie{
      color: #f8f7f4;
+}
+
+.table
+{
+border-collapse: collapse;
+
+}
+
+.table td
+{
+background-color: #7c695b;
+
+    border: 1px solid black;
+}
+
+.table th
+{
+    border: 1px solid black;
 }
 
 @media (max-width: 1000px) {

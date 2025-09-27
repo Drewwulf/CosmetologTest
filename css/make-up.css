@@ -6,7 +6,6 @@ body {
     margin: 0;
 }
 
-
 .navbar > .container-fluid,
 .navbar > .container-lg,
 .navbar > .container-md,
@@ -28,11 +27,13 @@ body {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
+
 .navbar-brand {
     font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     text-shadow: 13px 13px 13px black;
 }
+
 .nav-link {
     color: #ffffff !important;
     text-shadow: 13px 13px 13px black;
@@ -64,9 +65,10 @@ body {
 #formed {
     font-family: Mea Culpa;
     font-size: 2.875rem;
-    color: #c6965a;
+    color: #ddc1a7;
     margin: 0;
 }
+
 #brovy {
     font-family: tinos;
     font-size: 4.06rem;
@@ -77,6 +79,7 @@ body {
     font-family: tunnel sans;
     font-size: 1.5rem;
 }
+
 .zapisbutton {
     background-color: black;
     color: #f8f7f4;
@@ -90,41 +93,39 @@ body {
     border-radius: 4px;
     font-family: tinos;
 }
+
 .zapisbutton:hover {
     transform: scale(1.1);
 }
 #zapisid {
     width: 100px;
 }
+
 .brovymake-up2section {
     height: max-content;
     padding: 20px;
     color: #f8f7f4;
 }
-/*object-fit translete*/
-.h3make-up {
-    text-align: center;
-    font-size: 2rem;
-}
+
 .div1pery {
     width: 50%;
     padding: 10px;
 }
-.div1pery ul li {
-    margin: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
-    padding: 5px;
-}
 
+.div1pery ul li {
+    font-size: 1.2rem;
+    list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
+    margin: 1vh;
+}
 
 .div1pery ul li::marker {
     color: white;
 }
 
 .div1pery ul {
-    padding-left: 16px;
+    padding: 25px;
+    background-color: rgb(108, 108, 108);
+    border-radius: 0 0 15px 15px;
 }
 
 .perydiv2fhoto {
@@ -132,14 +133,12 @@ body {
     transition: 0.5s;
     padding: 10px;
 }
-.perydiv2fhoto:hover {
-    transform: scale(1.1);
-}
 
 .perydiv2fhoto img {
     width: 100%;
     height: 100%;
 }
+
 .divflex {
     display: flex;
     height: 50%;
@@ -150,12 +149,14 @@ body {
     font-size: 1.2rem;
     font-family: tinos;
 }
+
 .foter {
     height: 23vh;
     display: flex;
     padding: 20px;
     background-color: #7c695b;
 }
+
 .footersection {
     width: 100%;
     height: 100%;
@@ -164,6 +165,7 @@ body {
     font-weight: bold;
     color: #f8f7f4;
 }
+
 .ulfhone {
     width: 32%;
     height: 100%;
@@ -172,6 +174,7 @@ body {
     list-style-type: none;
     text-align: left;
 }
+
 .liFhone {
     padding-bottom: 0.625rem;
 }
@@ -184,15 +187,16 @@ body {
     list-style-type: none;
     text-align: left;
 }
+
 .ulvidguki {
     width: 32%;
     height: 100%;
     padding: 10px;
     margin: 0;
     list-style-type: none;
-
     color: #f8f7f4;
 }
+
 .lividguki {
     width: 100%;
     padding-bottom: 0.45rem;
@@ -208,17 +212,113 @@ body {
     text-decoration: none;
     color: #f8f7f4;
 }
+
+.h2Div h2{
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.pDiv{
+    color: #ffffff;
+    width: 100%;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.ulDiv{
+    color: #ffffff;
+    width: 40%;
+    list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
+    background-color: rgb(108, 108, 108);
+    border-radius: 20px;
+}
+
+.div1pery p{
+    font-size: 1.7rem;
+    background-color: rgba(49, 47, 47, 0.85);
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.div1pery ul li{
+    font-size: 1.4rem;
+}
+
+.ulDiv ul{
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.ulDiv ul li{
+    margin-top: 1vh;
+}
+
+.ulDiv p{
+    font-size: 1.7rem;
+    background-color: rgba(49, 47, 47, 0.85);
+    border-radius: 13px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.ulMainDiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.hr {
+    width: 40%;
+    margin: 0 auto !important;
+    color: #f8f7f4 !important;
+    margin-top: 1vh !important;
+    border: 2px solid !important;
+}
+
+.ulDiv2{
+    color: #ffffff;
+    width: 40%;
+    list-style-image: url("/img/close_small_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png");
+    background-color: rgb(108, 108, 108);
+    border-radius: 20px;
+    margin-left: 5vh;
+}
+
+.ulDiv2 p{
+    font-size: 1.7rem;
+    background-color: rgba(49, 47, 47, 0.85);
+    border-radius: 13px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.ulDiv2 ul{
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.ulDiv2 ul li{
+    margin-top: 1vh;
+}
+
 @media (max-width: 1000px) {
     h2 {
         font-size: 6rem;
     }
+
     .h3make-up {
         font-size: 8rem;
         text-align: left;
     }
+
     .div1pery ul li {
         font-size: 2.5rem;
     }
+
     .h2permake-up {
         font-size: 6rem;
         text-shadow: 1px 15px 50px rgba(0, 0, 0, 0.4);
@@ -228,14 +328,17 @@ body {
         font-size: 4rem;
         font-family: tinos;
     }
+
     .aboutbrovy {
         width: 100%;
     }
+
     .sectionbrovy {
         display: block;
         height: auto;
         margin-top: 5vh;
     }
+
     .fhotozbrovamy {
         width: 100%;
         padding: 0;
@@ -243,10 +346,10 @@ body {
 
     .sectionbrovy {
         display: block;
-
         padding: 16px;
         background: #9a8677;
     }
+
     .fhotozbovamy {
         width: 100%;
         padding: 0;
@@ -257,24 +360,29 @@ body {
         width: 500px;
         font-size: 3rem;
     }
+
     #zapisid {
         height: 140px;
         width: 500px;
         font-size: 3rem;
     }
+
     .aboutbrovy {
         width: 100%;
         padding: 0;
     }
+
     #pmakeup {
         font-size: 4rem;
     }
+
     #formed {
         font-family: Mea Culpa;
         font-size: 6.5rem;
         color: #ddc1a7;
         margin: 0;
     }
+
     #brovy {
         font-family: tinos;
         font-size: 8.12rem;
@@ -285,9 +393,11 @@ body {
     .divopisobocive {
         width: 100%;
     }
+
     .divflex {
         display: block;
     }
+
     .div1pery {
         width: 100%;
         padding: 0;
@@ -297,33 +407,42 @@ body {
         transition: 0.5s;
         padding: 0;
     }
+
     .perydiv2fhoto:hover {
         transform: scale(1.1);
     }
+
     .divfhotoobocive {
         width: 100%;
         padding: 0;
     }
+
     .obocivaP {
         font-size: 3.2rem;
     }
+
     .h2korekcia {
         font-size: 3.6rem;
     }
+
     .zapisbutton:hover {
         transform: scale(1.1);
     }
+
     .ulfhone {
         font-size: 2.2rem;
     }
+
     .ulquestion {
         font-size: 2.2rem;
     }
+
     svg {
         height: 60px;
         width: 60px;
         margin: 20px;
     }
+
     #navbarNav {
         background-color: #7c695b;
     }
