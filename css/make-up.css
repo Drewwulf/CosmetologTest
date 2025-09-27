@@ -467,7 +467,9 @@ body {
 
     .salonKrasy {
         font-size: 3.3rem !important;
+        height: 100%;
     }
+
 }
 .logo{
    height: 100%;

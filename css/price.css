@@ -97,7 +97,9 @@
 .salonKrasy {
     color: #ffffff !important;
     font-size: 2rem!important;
+    height: 100%;
 }
+
 
 .sect1{
     display: flex;
