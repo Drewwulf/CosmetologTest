@@ -155,6 +155,9 @@
     .navbar > .container-xxl {
         height: 5vh !important;
     }
+    .navbar-nav{
+        background-color: #7c695b;
+    }
 }
 
 .logo {
