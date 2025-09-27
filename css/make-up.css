@@ -352,6 +352,35 @@ body {
         font-size: 2.5rem;
     }
 
+    .ulDiv ul li{
+        font-size: 2rem;
+    }
+
+    .ulDiv p{
+        font-size: 2.3rem;
+    }
+
+    .ulDiv2 ul li{
+        font-size: 2rem;
+    }
+
+    .ulDiv2 p{
+        font-size: 2.3rem;
+    }
+
+    .ulDiv{
+        width: 55%
+    }
+
+    section{
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .ulDiv2{
+        width: 55%
+    }
+
     .h2permake-up {
         font-size: 6rem;
         text-shadow: 1px 15px 50px rgba(0, 0, 0, 0.4);
@@ -372,9 +401,22 @@ body {
         margin-top: 5vh;
     }
 
+    .pDiv{
+        font-size: 2.2rem;
+    }
+
+    section{
+        display: block;
+    }
+
     .fhotozbrovamy {
         width: 100%;
         padding: 0;
+    }
+
+    .divMain{
+        margin: 0 auto;
+        width: 70%;
     }
 
     .sectionbrovy {
@@ -435,6 +477,17 @@ body {
         width: 100%;
         padding: 0;
     }
+
+    .div1pery ul li{
+        font-size: 1.9rem;
+        padding: 5px;
+        margin-left: 1vh
+    }
+
+    .div1pery p{
+        font-size: 3.1rem;
+    }
+
     .perydiv2fhoto {
         width: 100%;
         transition: 0.5s;
