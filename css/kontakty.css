@@ -43,9 +43,13 @@ body {
 }
 .kontakty{
     justify-content: center;
-
     display: grid;
 
+}
+.kontakty iframe{
+    width: 100%;
+    margin: 0 auto;
+    height: 50vh;
 }
 .ULobociva{
      font-size: 1.3rem;
@@ -135,7 +139,7 @@ body {
         justify-content: space-around;
         align-items: center;
         justify-items: center;
-        height: 70vh;
+
     }
     .ulfhone {
         font-size: 2.2rem;
