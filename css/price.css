@@ -75,14 +75,13 @@
     font-weight: bold;
     position: fixed;
     top: 0;
-    background: linear-gradient(to top,#7c695b,#453931);
+    background: linear-gradient(to top, #7c695b, #453931);
 }
 .navbar-brand {
     font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     text-shadow: 13px 13px 13px black;
 }
-
 
 .navbar {
     margin: 0 !important;
@@ -96,30 +95,29 @@
 }
 .salonKrasy {
     color: #ffffff !important;
-    font-size: 2rem!important;
+    font-size: 2rem !important;
     height: 100%;
 }
 
-
-.sect1{
+.sect1 {
     display: flex;
     padding: 20px;
     margin-top: 15vh;
 }
 
-.photoDiv{
+.photoDiv {
     width: 33%;
 }
 
-.photoDiv img{
+.photoDiv img {
     width: 100%;
 }
 
-.textDiv{
+.textDiv {
     width: 67%;
 }
 
-.h2korekcia{
+.h2korekcia {
     font-size: 6.5rem;
     color: #ffffff;
     text-align: center;
@@ -133,68 +131,66 @@
     border: 2px solid !important;
 }
 
-.korekciaUl1{
+.korekciaUl1 {
     color: #ffffff;
     font-size: 1.8rem;
     margin-left: 2vh;
 }
 
-#textDiv2{
-
+#textDiv2 {
     padding-top: 7vh;
 }
 
-#textDiv2 li{
+#textDiv2 li {
     margin-bottom: 2vh;
 }
 
-#photoDiv{
+#photoDiv {
     width: 100%;
 }
 
-#photoDiv img{
+#photoDiv img {
     width: 100%;
 }
 
-#textDiv3{
+#textDiv3 {
     padding-top: 7vh;
 }
 
-#textDiv3 li{
+#textDiv3 li {
     margin-bottom: 2vh;
 }
 
-#textDiv4{
-
+#textDiv4 {
     padding-top: 7vh;
 }
 
-#textDiv4 li{
+#textDiv4 li {
     margin-bottom: 2vh;
 }
 
-#textDiv5 li{
+#textDiv5 li {
     margin-bottom: 2vh;
 }
 
-#textDiv5{
+#textDiv5 {
     padding-top: 7vh;
 }
 
-@media (max-width: 1000px){
-    .photoDiv{
+@media (max-width: 1000px) {
+    .photoDiv {
         display: none;
     }
 
-    .textDiv{
+    .textDiv {
         width: 100%;
     }
 
-    #textDiv5 h2{
+    #textDiv5 h2 {
         font-size: 5.5rem;
     }
 
-    .textDiv li{
+    .textDiv li {
         font-size: 2.4rem;
     }
 
@@ -211,7 +207,6 @@
     }
 }
 
-.logo{
-   height: 100%;
-
+.logo {
+    height: 100%;
 }
