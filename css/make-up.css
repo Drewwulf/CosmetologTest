@@ -22,6 +22,10 @@ body {
     background: linear-gradient(to top, #7c695b, #453931);
 }
 
+.div1pery{
+    width: 50%;
+}
+
 .navbar {
     margin: 0 !important;
     padding-top: 0 !important;
@@ -108,7 +112,7 @@ body {
 }
 
 .div1pery {
-    width: 50%;
+    width: 49%;
     padding: 10px;
 }
 
@@ -282,6 +286,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 5vh;
+    width: 100%;
 }
 
 .divMain{
