@@ -85,6 +85,7 @@
 .salonKrasy {
     color: #ffffff !important;
     font-size: 2rem !important;
+    height: 100%;
 }
 .lividguki {
     width: 100%;
@@ -154,4 +155,8 @@
     .navbar > .container-xxl {
         height: 5vh !important;
     }
+}
+
+.logo {
+    height: 100%;
 }

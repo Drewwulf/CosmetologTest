@@ -14,7 +14,7 @@ body {
     font-weight: bold;
     position: fixed;
     top: 0;
-    background: linear-gradient(to top,#7c695b,#453931);
+    background: linear-gradient(to top, #7c695b, #453931);
 }
 .navbar-brand {
     font-family: "Cormorant Garamond", serif;
@@ -39,30 +39,29 @@ body {
 }
 .salonKrasy {
     color: #ffffff !important;
-    font-size: 2rem!important;
+    font-size: 2rem !important;
+    height: 100%;
 }
-.kontakty{
+.kontakty {
     justify-content: center;
     display: grid;
-
 }
-.kontakty iframe{
+.kontakty iframe {
     width: 100%;
     margin: 0 auto;
     height: 50vh;
 }
-.ULobociva{
-     font-size: 1.3rem;
+.ULobociva {
+    font-size: 1.3rem;
     font-weight: 500;
-   list-style-type: none;
+    list-style-type: none;
 
     padding-left: 35px;
     color: #f8f7f4;
-   justify-content: center;
-
+    justify-content: center;
 }
-.liobocie{
-     color: #f8f7f4;
+.liobocie {
+    color: #f8f7f4;
 }
 
 .foter {
@@ -117,13 +116,13 @@ body {
     text-decoration: none;
     color: #f8f7f4;
 }
-.uldiv{
+.uldiv {
     background-color: #6c523e;
     border-radius: 0 0 10px 10px;
     padding: 41px;
 }
 @media (max-width: 1000px) {
-     .navbar > .container-fluid,
+    .navbar > .container-fluid,
     .navbar > .container-lg,
     .navbar > .container-md,
     .navbar > .container-sm,
@@ -131,7 +130,7 @@ body {
     .navbar > .container-xxl {
         height: 5vh !important;
     }
-    .kontakty{
+    .kontakty {
         display: grid;
         margin-top: 5vh;
         padding: 20px;
@@ -139,7 +138,6 @@ body {
         justify-content: space-around;
         align-items: center;
         justify-items: center;
-
     }
     .ulfhone {
         font-size: 2.2rem;
@@ -152,23 +150,24 @@ body {
         width: 60px;
         margin: 20px;
     }
-    .kontakty iframe{
+    .kontakty iframe {
         width: 800px;
         height: 900px;
     }
-    .ULobociva{
-        font-size: 2.5rem!important;
+    .ULobociva {
+        font-size: 2.5rem !important;
         font-weight: bold;
         padding: 0;
         height: max-content;
     }
+    .navbar-nav
+    {
+        background-color: #7c695b;
 
-
-
-
-
-
-
-
+    }
 
 }
+
+.logo {
+        height: 100%;
+    }
