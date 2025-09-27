@@ -27,15 +27,14 @@ body {
     font-weight: bold;
     position: fixed;
     top: 0;
-    background: linear-gradient(to top,#7c695b,#453931);
+    background: linear-gradient(to top, #7c695b, #453931);
 }
-.navbar-brand  {
+.navbar-brand {
     font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     text-shadow: 13px 13px 13px black;
     color: #f8f7f4 !important;
 }
-
 
 .navbar {
     margin: 0 !important;
@@ -44,7 +43,7 @@ body {
 }
 
 .nav-link {
-     color: #f8f7f4 !important;
+    color: #f8f7f4 !important;
     text-shadow: 13px 13px 13px black !important;
 }
 
@@ -55,10 +54,10 @@ body {
     margin-top: 15vh;
     text-align: left;
 }
-.salonKrasy{
+.salonKrasy {
     font-size: 2rem !important;
+    height: 100%;
 }
-
 
 .image1 {
     width: 45%;
@@ -106,7 +105,6 @@ body {
 
 .div2 {
     display: flex;
-
 }
 .div3 {
     display: flex;
@@ -205,38 +203,42 @@ body {
     text-decoration: none;
     color: #f8f7f4;
 }
-.ULobociva{
-     font-size: 1.3rem;
+.ULobociva {
+    font-size: 1.3rem;
     font-weight: 500;
     list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
     padding-left: 25px;
     color: #f8f7f4;
 }
-.liobocie{
-     color: #f8f7f4;
+.liobocie {
+    color: #f8f7f4;
 }
 
-.table
-{
-border-collapse: collapse;
-
+table {
+    border-collapse: collapse;
 }
 
-.table td
-{
-background-color: #7c695b;
-
+table td {
+    background-color: #745e4e;
     border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
-.table th
-{
+table th {
     border: 1px solid black;
+    background-color: #655143;
+    padding-left: 10px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 @media (max-width: 1000px) {
-    .ULobociva{
-        font-size: 2.5rem!important;
+    .ULobociva {
+        font-size: 2.5rem !important;
         font-weight: bold;
     }
 
@@ -341,8 +343,11 @@ background-color: #7c695b;
         margin: 20px;
     }
 
-
     .salonKrasy {
         font-size: 3.3rem !important;
     }
+}
+
+.logo {
+    height: 100%;
 }

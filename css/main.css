@@ -16,8 +16,7 @@
     width: 50%;
 }
 
-.textDiv p{
-
+.textDiv p {
     font-family: tinos;
 }
 
@@ -48,20 +47,17 @@
     font-weight: bold;
     position: fixed;
     top: 0;
-    background: linear-gradient(to top,#7c695b,#453931);
+    background: linear-gradient(to top, #7c695b, #453931);
 }
 .navbar-brand {
     font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     text-shadow: 13px 13px 13px black;
     color: #f8f7f4 !important;
-
 }
 .section {
     margin-top: 15vh;
 }
-
-
 
 .navbar {
     margin: 0 !important;
@@ -77,8 +73,6 @@
 .salonKrasy {
     font-size: 2.2rem !important;
 }
-
-
 
 .footer {
     background-color: #7c695b;
@@ -240,9 +234,7 @@
     align-content: center;
 }
 
-
-#photoDiv1 p{
-
+#photoDiv1 p {
     font-family: tinos;
 }
 
@@ -367,6 +359,7 @@
 
 .salonKrasy {
     font-size: 2rem !important;
+    height: 100%;
 }
 
 #textDiv4 {
@@ -397,20 +390,20 @@
 #photoDiv6 {
     margin-top: 5vh;
 }
-.ULobociva{
+.ULobociva {
     font-size: 1.3rem;
     font-weight: 500;
     list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
     padding-left: 25px !important;
     color: #f8f7f4;
 }
-.liobocie{
-     color: #f8f7f4;
+.liobocie {
+    color: #f8f7f4;
 }
 
 @media (max-width: 1000px) {
-    .ULobociva{
-        font-size: 2.5rem!important;
+    .ULobociva {
+        font-size: 2.5rem !important;
         font-weight: bold;
         padding-left: 25px !important;
     }
@@ -550,6 +543,8 @@
     #navbarNav {
         background-color: #7c695b;
     }
+}
 
-
+.logo {
+    height: 100%;
 }
