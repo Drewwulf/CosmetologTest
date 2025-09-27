@@ -349,6 +349,7 @@ table th {
 
     table {
     border-collapse: collapse;
+        margin: 0 auto;
 }
 
 table td {
