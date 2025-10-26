@@ -368,7 +368,11 @@ body {
         font-size: 2.3rem;
     }
 
-
+    #photo1{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 3vh;
+    }
 
     .ulDiv{
         width: 55%
@@ -391,6 +395,7 @@ body {
     .psection2 {
         font-size: 4rem;
         font-family: tinos;
+        padding: 10px;
     }
 
     .aboutbrovy {
