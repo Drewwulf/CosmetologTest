@@ -300,7 +300,7 @@ table th {
     }
 
     .navbar-nav .nav-link {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .hloboke {
@@ -375,6 +375,10 @@ table th {
         padding-bottom: 5px;
         padding-top: 5px;
         font-size: 3rem;
+    }
+    .logo{
+        width: 14vh;
+        height: 18vh;
     }
 }
 

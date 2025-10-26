@@ -398,6 +398,11 @@ body {
         padding: 10px;
     }
 
+    .logo{
+        width: 14vh;
+        height: 18vh;
+    }
+
     .aboutbrovy {
         width: 100%;
     }
@@ -541,7 +546,7 @@ body {
     }
 
     .navbar-nav .nav-link {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .navbar > .container-fluid,

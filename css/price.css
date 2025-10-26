@@ -186,6 +186,9 @@
     .navbar > .container-xxl {
         height: 5vh !important;
     }
+    .navbar-nav .nav-link{
+        font-size: 3rem!important;
+    }
     .photoDiv {
         display: none;
     }
@@ -196,6 +199,11 @@
 
     #textDiv5 h2 {
         font-size: 5.5rem;
+    }
+
+    .logo{
+        width: 14vh;
+        height: 18vh;
     }
 
     .textDiv li {

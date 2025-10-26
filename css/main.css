@@ -402,7 +402,10 @@
 }
 
 @media (max-width: 1000px) {
-
+.logo{
+        width: 14vh;
+        height: 18vh;
+    }
 
     #photo2{
         display: flex;
@@ -453,7 +456,7 @@
     }
 
     .navbar-nav .nav-link {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .photoDiv {

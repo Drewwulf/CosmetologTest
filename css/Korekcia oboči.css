@@ -208,6 +208,10 @@ body {
         padding: 20px;
         background: #9a8677;
     }
+    .logo{
+        width: 14vh;
+        height: 18vh;
+    }
     .navbar > .container-fluid,
     .navbar > .container-lg,
     .navbar > .container-md,
@@ -291,7 +295,7 @@ body {
     }
 
     .navbar-nav .nav-link {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .salonKrasy {

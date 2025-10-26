@@ -160,12 +160,18 @@ body {
         padding: 0;
         height: max-content;
     }
+    .navbar-nav .nav-link{
+        font-size: 3rem!important;
+    }
     .navbar-nav
     {
         background-color: #7c695b;
 
     }
-
+.logo{
+        width: 14vh;
+        height: 18vh;
+    }
 }
 
 .logo {

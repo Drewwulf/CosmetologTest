@@ -235,6 +235,10 @@ body {
         margin-top: 5vh;
         padding: 20px;
     }
+    .logo{
+        width: 14vh;
+        height: 18vh;
+    }
     .navbar > .container-fluid,
     .navbar > .container-lg,
     .navbar > .container-md,
@@ -286,7 +290,7 @@ body {
     }
 
     .navbar-nav .nav-link {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .hloboke {
