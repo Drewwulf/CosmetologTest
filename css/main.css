@@ -402,6 +402,27 @@
 }
 
 @media (max-width: 1000px) {
+
+
+    #photo2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #photo4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #photo5{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .img1{
+        margin-top: -2vh;
+    }
+
     .ULobociva {
         font-size: 2.5rem !important;
         font-weight: bold;
@@ -422,6 +443,7 @@
     .navbar > .container-xxl {
         height: 5vh !important;
     }
+
     .mainDiv {
         display: block;
     }
@@ -542,6 +564,10 @@
 
     #navbarNav {
         background-color: #7c695b;
+    }
+
+    .pellingH2{
+        margin-top: 2vh;
     }
 }
 
