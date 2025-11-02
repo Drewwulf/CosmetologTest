@@ -208,6 +208,10 @@ body {
         padding: 20px;
         background: #9a8677;
     }
+    .navbar-toggler-icon {
+        width: 5em!important;
+        height: 5em!important;
+    }   
     .logo{
         width: 14vh;
         height: 18vh;

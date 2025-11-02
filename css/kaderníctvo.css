@@ -140,6 +140,10 @@
         width: 60px;
         margin: 20px;
     }
+    .navbar-toggler-icon {
+        width: 5em!important;
+        height: 5em!important;
+    }
     .sectkadernacivo {
         display: block;
         height: 75vh;

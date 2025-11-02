@@ -380,6 +380,10 @@ table th {
         width: 14vh;
         height: 18vh;
     }
+    .navbar-toggler-icon {
+        width: 5em!important;
+        height: 5em!important;
+    }
 }
 
 .logo {

@@ -561,7 +561,12 @@ body {
     .salonKrasy {
         font-size: 3.3rem !important;
     }
+    .navbar-toggler-icon {
+        width: 5em!important;
+        height: 5em!important;
+    }
 }
+
 .logo {
     height: 100%;
 }

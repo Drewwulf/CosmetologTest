@@ -247,6 +247,11 @@ body {
         padding: 1rem;
     }
 
+    .navbar-toggler-icon {
+        width: 5em!important;
+        height: 5em!important;
+    }
+
     .navbar-nav .nav-link {
         font-size: 3rem;
     }

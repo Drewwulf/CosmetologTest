@@ -130,6 +130,10 @@ body {
     .navbar > .container-xxl {
         height: 8vh !important;
     }
+    .navbar-toggler-icon {
+        width: 5em!important;
+        height: 5em!important;
+    }
     .kontakty {
         display: grid;
         margin-top: 5vh;

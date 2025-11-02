@@ -189,6 +189,10 @@
     .navbar-nav .nav-link{
         font-size: 3rem!important;
     }
+    .navbar-toggler-icon {
+        width: 5em!important;
+        height: 5em!important;
+    }
     .photoDiv {
         display: none;
     }
