@@ -184,7 +184,7 @@
     .navbar > .container-sm,
     .navbar > .container-xl,
     .navbar > .container-xxl {
-        height: 5vh !important;
+        height: 8vh !important;
     }
     .navbar-nav .nav-link{
         font-size: 3rem!important;

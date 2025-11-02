@@ -128,7 +128,7 @@ body {
     .navbar > .container-sm,
     .navbar > .container-xl,
     .navbar > .container-xxl {
-        height: 5vh !important;
+        height: 8vh !important;
     }
     .kontakty {
         display: grid;
