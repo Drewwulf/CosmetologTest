@@ -90,7 +90,7 @@ body {
 .table {
     width: 41% !important;
     margin: 0 auto;
-    font-size: 1.2rem !important;
+    font-size: 1.2rem;
     border: inset;
 }
 
@@ -259,6 +259,9 @@ body {
     .logo {
         width: 14vh;
         height: 18vh;
+    }
+    .table {
+        font-size: 2.8rem !important;
     }
     .navbar > .container-fluid,
     .navbar > .container-lg,
