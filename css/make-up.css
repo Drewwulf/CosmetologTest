@@ -45,6 +45,27 @@ body {
     text-shadow: 13px 13px 13px black;
 }
 
+.table th {
+    background-color: #4b3c32 !important;
+    color: #ffffff !important;
+    padding: 15px !important;
+    border: inset;
+}
+
+.table td {
+    background-color: #55483f !important;
+    color: #ffffff !important;
+    padding: 18px !important;
+    border: inset;
+}
+
+.table {
+    width: 41% !important;
+    margin: 0 auto;
+    font-size: 1.2rem !important;
+    border: inset;
+}
+
 .sectionbrovy {
     display: flex;
     padding: 20px;

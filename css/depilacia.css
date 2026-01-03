@@ -29,6 +29,28 @@ body {
     top: 0;
     background: linear-gradient(to top, #7c695b, #453931);
 }
+
+.table th {
+    background-color: #4b3c32 !important;
+    color: #ffffff !important;
+    padding: 15px !important;
+    border: inset;
+}
+
+.table td {
+    background-color: #55483f !important;
+    color: #ffffff !important;
+    padding: 18px !important;
+    border: inset;
+}
+
+.table {
+    width: 52% !important;
+    margin: 0 auto;
+    font-size: 1.2rem !important;
+    border: inset;
+}
+
 .navbar-brand {
     font-family: "Cormorant Garamond", serif;
     font-weight: bold;
