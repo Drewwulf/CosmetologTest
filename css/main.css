@@ -3,7 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .mainDiv {
-    display: flex;
+     /* ідеально для ПК */
+    width: 100%;
+    margin: 0 auto!important;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 20px;
 }
 
 .navbar {
@@ -12,22 +19,24 @@
     padding-bottom: 0 !important;
 }
 
-.textDiv {
-    width: 50%;
-}
+
 
 .textDiv p {
     font-family: tinos;
+    width: 100%;
 }
 
 .photoDiv {
-    width: 50%;
-    margin-top: 2vh;
-    text-align: center;
+  width: 85% !important;
+        margin: 0 auto !important;
+        display: block;
+        text-align: center;
 }
 
 .photoDiv img {
-    width: 70%;
+ width: 100% !important;
+        display: block;
+        margin: 0 auto;
 }
 
 .navDecoration {
@@ -48,6 +57,7 @@
     position: fixed;
     top: 0;
     background: linear-gradient(to top, #7c695b, #453931);
+
 }
 .navbar-brand {
     font-family: "Cormorant Garamond", serif;
@@ -56,6 +66,9 @@
     color: #f8f7f4 !important;
 }
 .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 15vh;
 }
 
@@ -108,7 +121,7 @@
 }
 
 .textDiv p {
-    width: 85%;
+    width: 100%;
     color: #f8f7f4;
     font-family: Funnel Sans;
     font-size: 1.5rem;
@@ -123,22 +136,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-.mainDiv {
-    display: flex;
+.specialDiv{
+    width: 85%!important;
+    margin: 0 auto;
+    text-align: left;
+
 }
 
 .textDiv {
-    width: 50%;
-    align-content: center;
+    width: 100%;
+
+    margin: 0 auto;
 }
 
 .photoDiv {
-    width: 50%;
+    width: 100%;
     margin-top: 2vh;
 }
 
 .photoDiv img {
-    width: 70%;
+    width: 100%;
 }
 
 #photoDiv2 {
@@ -294,7 +311,10 @@
 }
 
 .pOpis {
-    width: 73% !important;
+    width: 100% ;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
 }
 
 #textDiv2 {
@@ -455,9 +475,7 @@
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
     }
 
-    .mainDiv {
-        display: block;
-    }
+
 
     .navbar {
         height: auto;
