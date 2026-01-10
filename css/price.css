@@ -117,6 +117,14 @@
     margin: 0 auto;
 }
 
+.textDivpos{
+    width: 90%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
 .h2korekcia {
     font-size: 3rem;
     color: #ffffff;
@@ -204,6 +212,30 @@
 .mainKorekcia {
     margin-top: 15vh;
 }
+.classA1 {
+    color: #ffffff!important;
+    background-color: #4b3c32;
+    padding: 20px;
+    font-size: 16px!important;
+    transition: ease 0.2s;
+    font-family: tinos;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 6px 4px #545454;
+    margin-top: 1vh;
+    margin: 15px;
+
+}
+.divtelphone{
+    display: flex;
+    flex-direction: column;
+    text-align: center
+
+}
+.divtelphone h3{
+    color: white;
+}
+
 
 @media (max-width: 1000px) {
     .navbar > .container-fluid,
