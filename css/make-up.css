@@ -149,6 +149,7 @@ body {
 
 .ulpery li {
     color: #ffffff;
+
 }
 
 .div1pery ul li {
@@ -181,7 +182,7 @@ body {
 .divflex {
     display: flex;
     height: 50%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .psection2 {
