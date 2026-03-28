@@ -73,25 +73,28 @@ body {
     align-content: center;
 }
 
-.table th {
+.table2 th {
     background-color: #4b3c32 !important;
     color: #ffffff !important;
     padding: 15px !important;
-    border: inset;
+    border:none!important;
+    border-bottom: 2px solid black !important;
 }
 
-.table td {
+.table2 td {
     background-color: #55483f !important;
     color: #ffffff !important;
     padding: 18px !important;
-    border: inset;
+    border:none!important;
+    border-bottom: 2px solid black !important;
 }
 
-.table {
-    width: 41% !important;
+.table2 {
+    width: 52% !important;
     margin: 0 auto;
-    font-size: 1.2rem;
-    border: inset;
+    font-size: 1.2rem !important;
+    border:none!important;
+    border-bottom: 2px solid black !important;
 }
 
 .hloboke {
