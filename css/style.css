@@ -1,4 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@keyframes animation2 {
+    from {
+        transform: scale(0.95);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+#divKorekcia,
+#divPerman,
+#divLamino,
+#divDepilacio,
+#divKozmetika,
+#divKaderníctvo {
+    animation: animation2 3s 1;
+}
 
 body {
     margin: 0 !important;
@@ -122,19 +140,16 @@ body {
     background: linear-gradient(to top, #7c695b, #453931);
 }
 
-
-@keyframes animation1{
-    from{
+@keyframes animation1 {
+    from {
         opacity: 0;
     }
-    to{
+    to {
         opacity: 1;
     }
-
 }
 main {
     animation: animation1 2s 1;
-
 }
 
 .navbar-brand {
