@@ -4,6 +4,21 @@
     padding: 20px;
     background-color: #7c695b;
 }
+
+@keyframes animation1{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+main {
+    animation: animation1 2s 1;
+
+}
+
 .footersection {
     width: 100%;
     height: 100%;
@@ -55,6 +70,7 @@
     background-color: #7c695b;
     height: 15vh;
     font-size: 1.7rem;
+     z-index: 100;
     font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     position: fixed;

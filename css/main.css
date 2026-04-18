@@ -3,6 +3,19 @@
 #pFinal{
     margin-bottom: 51px!important;
 }
+@keyframes animation1{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+main {
+    animation: animation1 2s 1;
+
+}
 .mainDiv {
     width: 100%;
     margin: 0 auto !important;
@@ -101,6 +114,7 @@
     font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     position: fixed;
+     z-index: 100;
     top: 0;
     background: linear-gradient(to top, #7c695b, #453931);
 }

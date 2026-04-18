@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@keyframes animation1{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+main {
+    animation: animation1 2s 1;
+
+}
+
 body {
     color: #f8f7f4;
     margin: 0;
@@ -18,6 +33,7 @@ body {
     font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     position: fixed;
+     z-index: 100;
     top: 0;
     background: linear-gradient(to top, #7c695b, #453931);
 }
