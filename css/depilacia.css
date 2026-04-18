@@ -103,6 +103,12 @@ body {
     font-family: Mea Culpa;
     font-size: 2.875rem;
 }
+.pDepilacia{
+    font-family: tunnel sans;
+}
+.h3Depilacia{
+    font-family: tunnel sans;
+}
 .laminovanie {
     font-family: tinos;
     font-size: 4.06rem;
@@ -111,7 +117,7 @@ body {
 .paragaraf {
     color: #f8f7f4;
     font-size: 1.5rem;
-    font-family: Funnel Sans;
+    font-family: tunnel sans;
 }
 .sect1 button {
     color: #ffffff;
