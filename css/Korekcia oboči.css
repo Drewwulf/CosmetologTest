@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap");
+@keyframes animation1{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+main {
+    animation: animation1 2s 1;
+    
+}
+
 body {
     margin: 0;
 }
@@ -270,6 +284,7 @@ body {
     .navbar > .container-xl,
     .navbar > .container-xxl {
         height: 8vh !important;
+         z-index: 100;
     }
     .fhotozbovamy {
         width: 100%;
