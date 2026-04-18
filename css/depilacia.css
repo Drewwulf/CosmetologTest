@@ -52,6 +52,7 @@ body {
     font-size: 1.2rem !important;
     border:none!important;
     border-bottom: 2px solid black !important;
+    margin-bottom: 50px;
 
 
 }
@@ -478,10 +479,12 @@ body {
 }
 
 .table2 {
-    width: 52% !important;
+    width: 85% !important;
     margin: 0 auto;
     font-size: 1.2rem !important;
     border: inset;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .navbar-brand {
@@ -818,7 +821,14 @@ table2 th {
 
     table2 {
         border-collapse: collapse;
+        width: 85% !important;
         margin: 0 auto;
+        font-size: 2.2rem !important;
+        border:none!important;
+        border-bottom: 2px solid black !important;
+
+
+
     }
 
     table2 td {

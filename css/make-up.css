@@ -362,6 +362,14 @@ body {
 }
 
 @media (max-width: 1000px) {
+    .table2 {
+    width: 85% !important;
+    margin: 50px auto;
+    font-size: 2.2rem !important;
+    border:none!important;
+    border-bottom: 2px solid black !important;
+}
+
     h2 {
         font-size: 6rem;
     }
