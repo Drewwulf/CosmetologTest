@@ -132,13 +132,12 @@ main {
     margin: 0 auto;
 }
 
-.textDivpos{
+.textDivpos {
     width: 90%;
     margin: 0 auto;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-
 }
 .h2korekcia {
     font-size: 3rem;
@@ -228,10 +227,10 @@ main {
     margin-top: 15vh;
 }
 .classA1 {
-    color: #ffffff!important;
+    color: #ffffff !important;
     background-color: #4b3c32;
-    padding: 20px;
-    font-size: 16px!important;
+    padding: 30px;
+    font-size: 2.2rem !important;
     transition: ease 0.2s;
     font-family: tinos;
     font-weight: bold;
@@ -239,18 +238,15 @@ main {
     box-shadow: 6px 4px #545454;
     margin-top: 1vh;
     margin: 15px;
-
 }
-.divtelphone{
+.divtelphone {
     display: flex;
     flex-direction: column;
-    text-align: center
-
+    text-align: center;
 }
-.divtelphone h3{
+.divtelphone h3 {
     color: white;
 }
-
 
 @media (max-width: 1000px) {
     .navbar > .container-fluid,
@@ -297,7 +293,11 @@ main {
     }
 
     .tableKorekcia {
-        font-size: 1.8rem;
+        width: 85% !important;
+        margin: 50px auto;
+        font-size: 2.2rem !important;
+        border: none !important;
+        border-bottom: 2px solid black !important;
     }
 }
 

@@ -73,9 +73,9 @@ main {
 }
 
 .table2 {
-    width: 52% !important;
+    width: 85% !important;
     margin: 0 auto;
-    font-size: 1.2rem !important;
+    font-size: 2.2rem !important;
     border:none!important;
     border-bottom: 2px solid black !important;
 }
@@ -182,7 +182,7 @@ main {
 .textDiv p {
     width: 100%;
     color: #f8f7f4;
-    font-family: Funnel Sans;
+    font-family: tunnel sans;
     font-size: 1.5rem;
 }
 
@@ -329,9 +329,8 @@ main {
 }
 
 .textDiv p {
-    width: 85%;
     color: #f8f7f4;
-    font-family: Funnel Sans;
+    font-family: tunnel sans;
     font-size: 1.5rem;
 }
 
@@ -414,6 +413,10 @@ main {
     color: #f8f7f4 !important;
     margin-top: 1vh !important;
     border: 2px solid !important;
+}
+
+#hr2{
+    width: 70%;
 }
 
 .hr2 {

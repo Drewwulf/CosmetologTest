@@ -51,9 +51,10 @@ body {
 .table2 {
     width: 52% !important;
     margin: 0 auto;
-    font-size: 1.2rem !important;
+    font-size: 2.2rem !important;
     border:none!important;
     border-bottom: 2px solid black !important;
+    margin-bottom: 50px;
 }
 
 #formed {
@@ -113,10 +114,11 @@ body {
     text-align: center;
     font-size: 2.8rem !important;
     color: #f8f7f4;
+    font-family: tinos;
 }
 .obocivaP {
     font-size: 1.5rem !important;
-    font-family: tines;
+    font-family: tunnel sans;
     color: #f8f7f4;
 }
 .ULobociva {
@@ -240,6 +242,15 @@ body {
     color: #f8f7f4;
 }
 @media (max-width: 1000px) {
+    .table2 {
+    width: 85% !important;
+    margin: 50px auto;
+    font-size: 2.2rem !important;
+    border:none!important;
+    border-bottom: 2px solid black !important;
+    
+}
+    
     .sectionbrovy {
         display: block;
         height: auto;
