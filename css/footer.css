@@ -1,0 +1,75 @@
+.footer {
+    background-color: #7c695b;
+    height: 12vh;
+    color: #ffffff;
+    align-content: center;
+}
+.foter {
+    height: 23vh;
+    display: flex;
+    padding: 20px;
+    background-color: #7c695b;
+}
+.footersection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: #f8f7f4;
+}
+.ulfhone {
+    width: 32%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+}
+.liFhone {
+    padding-bottom: 0.625rem;
+}
+
+.aAbout {
+    text-decoration: none;
+    color: #f8f7f4;
+}
+.ulquestion {
+    width: 32%;
+    padding: 10px;
+    height: 100%;
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+}
+.ulvidguki {
+    width: 32%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+
+    color: #f8f7f4;
+}
+.lividguki {
+    width: 100%;
+    padding-bottom: 0.45rem;
+    padding-top: 0.45rem;
+}
+
+.ulquestion {
+    width: 32%;
+    padding: 10px;
+    height: 100%;
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+}
+@media (max-width: 1000px) {
+        .ulfhone {
+        font-size: 2.2rem;
+    }
+    .ulquestion {
+        font-size: 2.2rem;
+    }
+}
