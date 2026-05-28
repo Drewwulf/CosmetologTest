@@ -71,14 +71,12 @@ main {
     height: 15vh;
     font-size: 1.7rem;
      z-index: 100;
-    font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     position: fixed;
     top: 0;
     background: linear-gradient(to top, #7c695b, #453931);
 }
 .navbar-brand {
-    font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     text-shadow: 13px 13px 13px black;
 }
@@ -137,7 +135,6 @@ main {
 }
 .kadernacivP {
     font-size: 1.5rem !important;
-    font-family: tines;
     color: #f8f7f4;
 }
 .h1kadernacivo{

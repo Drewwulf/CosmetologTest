@@ -47,7 +47,6 @@ main {
     margin: 10px;
     font-size: 19px;
     transition: ease 0.2s;
-    font-family: tinos;
     font-weight: bold;
     border-radius: 4px;
     box-shadow: 6px 4px #545454;
@@ -81,7 +80,6 @@ main {
 }
 
 .textDiv p {
-    font-family: tinos;
     width: 100%;
 }
 
@@ -111,7 +109,6 @@ main {
     background-color: #7c695b;
     height: 15vh;
     font-size: 1.7rem;
-    font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     position: fixed;
      z-index: 100;
@@ -119,7 +116,6 @@ main {
     background: linear-gradient(to top, #7c695b, #453931);
 }
 .navbar-brand {
-    font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     text-shadow: 13px 13px 13px black;
     color: #f8f7f4 !important;
@@ -173,7 +169,6 @@ main {
 }
 
 .krasneFont {
-    font-family: Mea Culpa;
     font-size: 4.95rem;
     margin-bottom: -2vh;
     color: #ffffff;
@@ -182,7 +177,6 @@ main {
 .textDiv p {
     width: 100%;
     color: #f8f7f4;
-    font-family: tunnel sans;
     font-size: 1.5rem;
 }
 

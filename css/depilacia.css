@@ -35,7 +35,6 @@ body {
     height: 15vh;
     z-index: 100;
     font-size: 1.7rem;
-    font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     position: fixed;
     top: 0;
@@ -68,7 +67,6 @@ body {
 }
 
 .navbar-brand {
-    font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     text-shadow: 13px 13px 13px black !important;
     color: #f8f7f4 !important;
@@ -111,17 +109,13 @@ body {
 
 .hloboke {
     color: #ddc1a7;
-    font-family: Mea Culpa;
     font-size: 2.875rem;
 }
 .pDepilacia {
-    font-family: tunnel sans;
 }
 .h3Depilacia {
-    font-family: tunnel sans;
 }
 .laminovanie {
-    font-family: tinos;
     font-size: 4.06rem;
     color: #f8f7f4;
 }
@@ -137,7 +131,6 @@ body {
     margin: 10px;
     font-size: 19px;
     transition: ease 0.2s;
-    font-family: tinos;
     font-weight: bold;
     border-radius: 4px;
     box-shadow: 6px 4px #545454;
@@ -170,7 +163,6 @@ body {
 .text2 {
     width: 50%;
     color: #f8f7f4;
-    font-family: tinos;
     padding: 20px;
 }
 
@@ -308,7 +300,6 @@ body {
     background-color: #7c695b;
     height: 15vh;
     font-size: 1.7rem;
-    font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     position: fixed;
     top: 0;
@@ -340,7 +331,6 @@ body {
 }
 
 .navbar-brand {
-    font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     text-shadow: 13px 13px 13px black;
     color: #f8f7f4 !important;
@@ -383,11 +373,9 @@ body {
 
 .hloboke {
     color: #ddc1a7;
-    font-family: Mea Culpa;
     font-size: 2.875rem;
 }
 .laminovanie {
-    font-family: tinos;
     font-size: 4.06rem;
     color: #f8f7f4;
 }
@@ -403,7 +391,6 @@ body {
     margin: 10px;
     font-size: 19px;
     transition: ease 0.2s;
-    font-family: tinos;
     font-weight: bold;
     border-radius: 4px;
     box-shadow: 6px 4px #545454;
@@ -436,7 +423,6 @@ body {
 .text2 {
     width: 50%;
     color: #f8f7f4;
-    font-family: tinos;
     padding: 20px;
 }
 
@@ -597,7 +583,6 @@ table2 th {
     .text2 {
         width: 100%;
         color: #f8f7f4;
-        font-family: tinos;
         padding: 20px;
     }
     .image3 {
@@ -638,7 +623,6 @@ table2 th {
         margin: 10px;
         font-size: 3rem;
         transition: ease 0.2s;
-        font-family: tinos;
         font-weight: bold;
         border-radius: 4px;
         box-shadow: 6px 4px #545454;
