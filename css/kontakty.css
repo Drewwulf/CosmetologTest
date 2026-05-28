@@ -1,22 +1,7 @@
 body {
     margin: 0;
 }
-.navbar > .container-fluid,
-.navbar > .container-lg,
-.navbar > .container-md,
-.navbar > .container-sm,
-.navbar > .container-xl,
-.navbar > .container-xxl {
-    background-color: #7c695b;
-    height: 15vh;
-    font-size: 1.7rem;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: bold;
-    position: fixed;
-     z-index: 100;
-    top: 0;
-    background: linear-gradient(to top, #7c695b, #453931);
-}
+
 @keyframes animation1{
     from{
         opacity: 0;
@@ -31,32 +16,13 @@ main {
 
 }
 
-.navbar-brand {
-    font-family: "Cormorant Garamond", serif;
-    font-weight: bold;
-    text-shadow: 13px 13px 13px black;
-}
+
 .kontakty {
     display: flex;
     padding: 20px;
     margin-top: 15vh;
 }
 
-.navbar {
-    margin: 0 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-}
-
-.nav-link {
-    color: #ffffff !important;
-    text-shadow: 13px 13px 13px black;
-}
-.salonKrasy {
-    color: #ffffff !important;
-    font-size: 2rem !important;
-    height: 100%;
-}
 .kontakty {
     justify-content: center;
     display: grid;
@@ -137,21 +103,7 @@ main {
     padding: 41px;
 }
 @media (max-width: 1000px) {
-    .navbar > .container-fluid,
-    .navbar > .container-lg,
-    .navbar > .container-md,
-    .navbar > .container-sm,
-    .navbar > .container-xl,
-    .navbar > .container-xxl {
-        height: 8vh !important;
-    }
-    .navbar-toggler-icon {
-        width: 5em!important;
-        height: 5em!important;
-        border: 4px solid white;
-        border-radius: 0.5vh;
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
-    }
+
     .kontakty {
         display: grid;
         margin-top: 5vh;
@@ -182,14 +134,8 @@ main {
         padding: 0;
         height: max-content;
     }
-    .navbar-nav .nav-link{
-        font-size: 3rem!important;
-    }
-    .navbar-nav
-    {
-        background-color: #7c695b;
+   
 
-    }
 .logo{
         width: 14vh;
         height: 18vh;
