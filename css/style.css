@@ -132,7 +132,7 @@ body {
     background-color: #7c695b;
     height: 15vh;
     font-size: 1.7rem;
-    font-family: "Cormorant Garamond", serif;
+
     font-weight: bold;
     position: fixed;
     z-index: 100;
@@ -153,7 +153,6 @@ main {
 }
 
 .navbar-brand {
-    font-family: "Cormorant Garamond", serif;
     font-weight: bold;
     text-shadow: 13px 13px 13px black;
     color: #f8f7f4 !important;

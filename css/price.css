@@ -86,14 +86,16 @@ main {
     height: 15vh;
      z-index: 100;
     font-size: 1.7rem;
-    font-family: "Cormorant Garamond", serif;
+
+;
+
     font-weight: bold;
     position: fixed;
     top: 0;
     background: linear-gradient(to top, #7c695b, #453931);
 }
 .navbar-brand {
-    font-family: "Cormorant Garamond", serif;
+
     font-weight: bold;
     text-shadow: 13px 13px 13px black;
 }
@@ -232,7 +234,6 @@ main {
     padding: 30px;
     font-size: 2.2rem !important;
     transition: ease 0.2s;
-    font-family: tinos;
     font-weight: bold;
     border-radius: 4px;
     box-shadow: 6px 4px #545454;

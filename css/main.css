@@ -305,7 +305,6 @@ main {
 }
 
 #photoDiv1 p {
-    font-family: tinos;
 }
 
 .postaH2 {
@@ -322,7 +321,6 @@ main {
 }
 
 .textDiv h1 {
-    font-family: tinos;
     font-size: 65px;
     margin: 0;
     color: #f8f7f4;
@@ -330,7 +328,6 @@ main {
 
 .textDiv p {
     color: #f8f7f4;
-    font-family: tunnel sans;
     font-size: 1.5rem;
 }
 
@@ -340,7 +337,6 @@ main {
     padding: 20px;
     font-size: 19px !important;
     transition: ease 0.2s;
-    font-family: tinos;
     font-weight: bold;
     border-radius: 4px;
     box-shadow: 6px 4px #545454;
@@ -481,7 +477,6 @@ main {
         padding: 45px;
         font-size: 25px !important;
         transition: ease 0.2s;
-        font-family: tinos;
         font-weight: bold;
         border-radius: 4px;
         box-shadow: 6px 4px #545454;
@@ -495,7 +490,6 @@ main {
         margin: 10px;
         font-size: 3rem;
         transition: ease 0.2s;
-        font-family: tinos;
         font-weight: bold;
         border-radius: 4px;
         box-shadow: 6px 4px #545454;
