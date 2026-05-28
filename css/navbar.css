@@ -62,6 +62,10 @@
     .navbar-nav .nav-link {
         font-size: 3rem;
     }
+    .salonKrasy {
+    font-size: 3.3rem !important;
+    height: 100%;
+}
 }
 .salonKrasy {
     font-size: 2rem !important;
