@@ -20,26 +20,8 @@ body {
     padding: 2%;
 }
 
-.navDecoration {
-    height: 10vh;
-    margin: -1vh;
-}
 
-.navbar > .container-fluid,
-.navbar > .container-lg,
-.navbar > .container-md,
-.navbar > .container-sm,
-.navbar > .container-xl,
-.navbar > .container-xxl {
-    background-color: #7c695b;
-    height: 15vh;
-    z-index: 100;
-    font-size: 1.7rem;
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    background: linear-gradient(to top, #7c695b, #453931);
-}
+
 
 .table2 th {
     background-color: #4b3c32 !important;
@@ -66,22 +48,9 @@ body {
     margin-bottom: 50px;
 }
 
-.navbar-brand {
-    font-weight: bold;
-    text-shadow: 13px 13px 13px black !important;
-    color: #f8f7f4 !important;
-}
 
-.navbar {
-    margin: 0 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-}
 
-.nav-link {
-    color: #f8f7f4 !important;
-    text-shadow: 13px 13px 13px black !important;
-}
+
 
 .sect1 {
     display: flex;
@@ -90,10 +59,7 @@ body {
     margin-top: 15vh;
     text-align: left;
 }
-.salonKrasy {
-    font-size: 2rem !important;
-    height: 100%;
-}
+
 
 .image1 {
     width: 45%;
@@ -286,25 +252,8 @@ body {
     padding: 2%;
 }
 
-.navDecoration {
-    height: 10vh;
-    margin: -1vh;
-}
 
-.navbar > .container-fluid,
-.navbar > .container-lg,
-.navbar > .container-md,
-.navbar > .container-sm,
-.navbar > .container-xl,
-.navbar > .container-xxl {
-    background-color: #7c695b;
-    height: 15vh;
-    font-size: 1.7rem;
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    background: linear-gradient(to top, #7c695b, #453931);
-}
+
 
 .table2 th {
     background-color: #4b3c32 !important;
@@ -330,22 +279,6 @@ body {
     margin-top: 50px;
 }
 
-.navbar-brand {
-    font-weight: bold;
-    text-shadow: 13px 13px 13px black;
-    color: #f8f7f4 !important;
-}
-
-.navbar {
-    margin: 0 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-}
-
-.nav-link {
-    color: #f8f7f4 !important;
-    text-shadow: 13px 13px 13px black !important;
-}
 
 .sect1 {
     display: flex;
@@ -354,10 +287,7 @@ body {
     margin-top: 15vh;
     text-align: left;
 }
-.salonKrasy {
-    font-size: 2rem !important;
-    height: 100%;
-}
+
 
 .image1 {
     width: 45%;
@@ -552,14 +482,7 @@ table2 th {
         padding: 20px;
         background: #9a8677;
     }
-    .navbar > .container-fluid,
-    .navbar > .container-lg,
-    .navbar > .container-md,
-    .navbar > .container-sm,
-    .navbar > .container-xl,
-    .navbar > .container-xxl {
-        height: 8vh !important;
-    }
+   
     .image1 {
         width: 100%;
     }
@@ -591,20 +514,7 @@ table2 th {
         border-radius: 4px;
         align-content: center;
     }
-
-    #navbarNav {
-        background-color: #7c695b;
-    }
-
-    .navbar-collapse {
-        background-color: #7b5d4d;
-        padding: 1rem;
-    }
-
-    .navbar-nav .nav-link {
-        font-size: 3rem;
-    }
-
+   
     .hloboke {
         font-size: 5.75rem;
     }
@@ -650,9 +560,7 @@ table2 th {
         margin: 20px;
     }
 
-    .salonKrasy {
-        font-size: 3.3rem !important;
-    }
+   
 
     table2 {
         border-collapse: collapse;
@@ -688,13 +596,7 @@ table2 th {
         width: 14vh;
         height: 18vh;
     }
-    .navbar-toggler-icon {
-        width: 5em !important;
-        height: 5em !important;
-        border: 4px solid white;
-        border-radius: 0.5vh;
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-    }
+ 
 }
 
 .logo {

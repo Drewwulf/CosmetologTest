@@ -93,14 +93,9 @@ body {
     font-size: 3rem;
 }
 
-.navDecoration {
-    margin: -1vh;
-}
 
-.salonKrasy {
-    font-size: 2rem !important;
-    height: 100%;
-}
+
+
 
 .divDark {
     height: 100%;
@@ -123,23 +118,6 @@ body {
     text-align: left;
 }
 
-.navbar > .container-fluid,
-.navbar > .container-lg,
-.navbar > .container-md,
-.navbar > .container-sm,
-.navbar > .container-xl,
-.navbar > .container-xxl {
-    background-color: #7c695b;
-    height: 15vh;
-    font-size: 1.7rem;
-
-    font-weight: bold;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    background: linear-gradient(to top, #7c695b, #453931);
-}
-
 @keyframes animation1 {
     from {
         opacity: 0;
@@ -152,25 +130,14 @@ main {
     animation: animation1 2s 1;
 }
 
-.navbar-brand {
-    font-weight: bold;
-    text-shadow: 13px 13px 13px black;
-    color: #f8f7f4 !important;
-}
+
 .section {
     margin-top: 15vh;
 }
 
-.navbar {
-    margin: 0 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    z-index: 200;
-}
 
-.nav-link {
-    color: #ffffff !important;
-}
+
+
 
 .foter {
     height: 23vh;
@@ -266,14 +233,7 @@ main {
         margin-top: 5vh;
         padding: 20px;
     }
-    .navbar > .container-fluid,
-    .navbar > .container-lg,
-    .navbar > .container-md,
-    .navbar > .container-sm,
-    .navbar > .container-xl,
-    .navbar > .container-xxl {
-        height: 8vh !important;
-    }
+    
 
     #divPerman {
         width: 63%;
@@ -298,26 +258,7 @@ main {
         width: 63%;
     }
 
-    #navbarNav {
-        background-color: #7c695b;
-    }
-
-    .navbar-collapse {
-        background-color: #7b5d4d;
-        padding: 1rem;
-    }
-
-    .navbar-toggler-icon {
-        width: 5em !important;
-        height: 5em !important;
-        border: 4px solid white;
-        border-radius: 0.5vh;
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-    }
-
-    .navbar-nav .nav-link {
-        font-size: 3rem;
-    }
+  
     .ulfhone {
         font-size: 2.2rem;
     }
@@ -333,9 +274,7 @@ main {
         width: 60%;
         font-size: 2.6rem;
     }
-    .salonKrasy {
-        font-size: 3.3rem !important;
-    }
+ 
     .logo {
         width: 14vh;
         height: 18vh;
