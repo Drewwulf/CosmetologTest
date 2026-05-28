@@ -58,19 +58,16 @@ body {
 }
 
 #formed {
-    font-family: Mea Culpa;
     font-size: 2.875rem;
     color: #ffffff;
     margin: 0;
 }
 #brovy {
-    font-family: tines;
     font-size: 4.01rem;
     margin: 0;
     color: #f8f7f4;
 }
 #pmakeup {
-    font-family: tunnel sans;
     font-size: 1.5rem;
     color: #f8f7f4;
 }
@@ -85,7 +82,6 @@ body {
     font-weight: bold;
     transition: ease 0.2s;
     border-radius: 4px;
-    font-family: tines;
 }
 .zapisbutton:hover {
     transform: scale(1.1);
@@ -114,11 +110,9 @@ body {
     text-align: center;
     font-size: 2.8rem !important;
     color: #f8f7f4;
-    font-family: tinos;
 }
 .obocivaP {
     font-size: 1.5rem !important;
-    font-family: tunnel sans;
     color: #f8f7f4;
 }
 .ULobociva {
@@ -255,13 +249,11 @@ body {
         font-size: 4rem;
     }
     #formed {
-        font-family: Mea Culpa;
         font-size: 5.75rem;
         color: #ffffff;
         margin: 0;
     }
     #brovy {
-        font-family: tines;
         font-size: 8.12rem;
         margin: 0;
         color: #f8f7f4;

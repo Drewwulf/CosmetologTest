@@ -79,7 +79,6 @@ body {
 }
 
 #formed {
-    font-family: Mea Culpa;
     font-size: 2.875rem;
 
     color: #ffffff;
@@ -88,13 +87,11 @@ body {
 }
 
 #brovy {
-    font-family: tinos;
     font-size: 4.06rem;
     margin: 0;
 }
 
 #pmakeup {
-    font-family: tunnel sans;
     font-size: 1.5rem;
 }
 
@@ -109,7 +106,7 @@ body {
     font-weight: bold;
     transition: ease 0.2s;
     border-radius: 4px;
-    font-family: tinos;
+
 }
 
 .zapisbutton:hover {
@@ -174,7 +171,6 @@ body {
 
 .psection2 {
     font-size: 1.2rem;
-    font-family: tinos;
 }
 
 .foter {
@@ -412,7 +408,6 @@ body {
 
     .psection2 {
         font-size: 4rem;
-        font-family: tinos;
         padding: 10px;
     }
 
@@ -482,13 +477,11 @@ body {
     }
 
     #formed {
-        font-family: Mea Culpa;
         font-size: 6.5rem;
         margin: 0;
     }
 
     #brovy {
-        font-family: tinos;
         font-size: 8.12rem;
         margin: 0;
         color: #f8f7f4;

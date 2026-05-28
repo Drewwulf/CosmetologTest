@@ -75,24 +75,19 @@ body {
 
 .hloboke {
     color: #ddc1a7;
-    font-family: Mea Culpa;
     font-size: 2.875rem;
 }
 .pDepilacia {
-    font-family: tunnel sans;
 }
 .h3Depilacia {
-    font-family: tunnel sans;
 }
 .laminovanie {
-    font-family: tinos;
     font-size: 4.06rem;
     color: #f8f7f4;
 }
 .paragaraf {
     color: #f8f7f4;
     font-size: 1.5rem;
-    font-family: tunnel sans;
 }
 .sect1 button {
     color: #ffffff;
@@ -102,7 +97,6 @@ body {
     margin: 10px;
     font-size: 19px;
     transition: ease 0.2s;
-    font-family: tinos;
     font-weight: bold;
     border-radius: 4px;
     box-shadow: 6px 4px #545454;
@@ -135,7 +129,6 @@ body {
 .text2 {
     width: 50%;
     color: #f8f7f4;
-    font-family: tinos;
     padding: 20px;
 }
 
@@ -310,18 +303,15 @@ body {
 
 .hloboke {
     color: #ddc1a7;
-    font-family: Mea Culpa;
     font-size: 2.875rem;
 }
 .laminovanie {
-    font-family: tinos;
     font-size: 4.06rem;
     color: #f8f7f4;
 }
 .paragaraf {
     color: #f8f7f4;
     font-size: 1.5rem;
-    font-family: Funnel Sans;
 }
 .sect1 button {
     color: #ffffff;
@@ -331,7 +321,6 @@ body {
     margin: 10px;
     font-size: 19px;
     transition: ease 0.2s;
-    font-family: tinos;
     font-weight: bold;
     border-radius: 4px;
     box-shadow: 6px 4px #545454;
@@ -364,7 +353,6 @@ body {
 .text2 {
     width: 50%;
     color: #f8f7f4;
-    font-family: tinos;
     padding: 20px;
 }
 
@@ -518,7 +506,6 @@ table2 th {
     .text2 {
         width: 100%;
         color: #f8f7f4;
-        font-family: tinos;
         padding: 20px;
     }
     .image3 {
@@ -546,7 +533,6 @@ table2 th {
         margin: 10px;
         font-size: 3rem;
         transition: ease 0.2s;
-        font-family: tinos;
         font-weight: bold;
         border-radius: 4px;
         box-shadow: 6px 4px #545454;
