@@ -1,9 +1,4 @@
-.foter {
-    height: 23vh;
-    display: flex;
-    padding: 20px;
-    background-color: #7c695b;
-}
+
 
 @keyframes animation1{
     from{
@@ -19,48 +14,10 @@ main {
 
 }
 
-.footersection {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    text-align: center;
-    font-weight: bold;
-    color: #f8f7f4;
-}
-.ulfhone {
-    width: 32%;
-    height: 100%;
-    padding: 10px;
-    margin: 0;
-    list-style-type: none;
-    text-align: left;
-}
-.liFhone {
-    padding-bottom: 0.625rem;
-}
 
-.ulquestion {
-    width: 32%;
-    padding: 10px;
-    height: 100%;
-    margin: 0;
-    list-style-type: none;
-    text-align: left;
-}
-.ulvidguki {
-    width: 32%;
-    height: 100%;
-    padding: 10px;
-    margin: 0;
-    list-style-type: none;
 
-    color: #f8f7f4;
-}
-.lividguki {
-    width: 100%;
-    padding-bottom: 0.45rem;
-    padding-top: 0.45rem;
-}
+
+
 
 
 .sectionbrovy {
@@ -70,16 +27,6 @@ main {
 }
 
 
-.lividguki {
-    width: 100%;
-    padding-bottom: 0.45rem;
-    padding-top: 0.45rem;
-}
-
-.aAbout {
-    text-decoration: none;
-    color: #f8f7f4;
-}
 .sectkadernacivo {
     height: 80vh;
     display: block;
@@ -111,12 +58,8 @@ main {
     color: #f8f7f4;
 }
 @media (max-width: 1000px) {
-    .ulfhone {
-        font-size: 2.2rem;
-    }
-    .ulquestion {
-        font-size: 2.2rem;
-    }
+ 
+   
     svg {
         height: 60px;
         width: 60px;
