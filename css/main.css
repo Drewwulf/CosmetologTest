@@ -35,21 +35,7 @@ main {
     border:none!important;
     border-bottom: 2px solid black !important;
 }
-.zapisbutton {
-    color: #ffffff;
-    background-color: #000000;
-    height: 38px;
-    width: 200px;
-    margin: 10px;
-    font-size: 19px;
-    transition: ease 0.2s;
-    font-weight: bold;
-    border-radius: 4px;
-    box-shadow: 6px 4px #545454;
-}
-.zapisbutton:hover {
-    transform: scale(1.1);
-}
+
 
 .table2 {
     border: 1px solid;
@@ -356,19 +342,6 @@ main {
         background-color: #000000;
         padding: 45px;
         font-size: 25px !important;
-        transition: ease 0.2s;
-        font-weight: bold;
-        border-radius: 4px;
-        box-shadow: 6px 4px #545454;
-    }
-
-    .zapisbutton {
-        color: #ffffff;
-        background-color: #000000;
-        height: 140px;
-        width: 500px;
-        margin: 10px;
-        font-size: 3rem;
         transition: ease 0.2s;
         font-weight: bold;
         border-radius: 4px;
