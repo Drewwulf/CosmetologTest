@@ -77,10 +77,7 @@ body {
     color: #ddc1a7;
     font-size: 2.875rem;
 }
-.pDepilacia {
-}
-.h3Depilacia {
-}
+
 .laminovanie {
     font-size: 4.06rem;
     color: #f8f7f4;
@@ -105,56 +102,21 @@ body {
     transform: scale(1.1);
 }
 
-.div2 {
-    display: flex;
-}
 .div3 {
     display: flex;
 }
 
-.image3 {
-    width: 50%;
-    padding: 10px;
-    border-radius: 4px;
-    align-content: center;
-}
-.image3 img {
-    width: 100%;
-}
 .image4 {
     width: 50%;
     border-radius: 4px;
 }
 
-.text2 {
-    width: 50%;
-    color: #f8f7f4;
-    padding: 20px;
-}
-
-.text2 h3 {
-    font-size: 2rem;
-}
-
-.text2 p {
-    font-size: 1.2rem;
-}
 
 .pOst {
     padding-top: 5px;
 }
 
 
-.ULobociva {
-    font-size: 1.3rem;
-    font-weight: 500;
-    list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
-    padding-left: 25px;
-    color: #f8f7f4;
-}
-.liobocie {
-    color: #f8f7f4;
-}
 
 table2 {
     border-collapse: collapse;
@@ -270,57 +232,21 @@ body {
     transform: scale(1.1);
 }
 
-.div2 {
-    display: flex;
-}
 .div3 {
     display: flex;
 }
 
-.image3 {
-    width: 50%;
-    padding: 10px;
-    border-radius: 4px;
-    align-content: center;
-}
-.image3 img {
-    width: 100%;
-}
 .image4 {
     width: 50%;
     border-radius: 4px;
 }
-
-.text2 {
-    width: 50%;
-    color: #f8f7f4;
-    padding: 20px;
-}
-
-.text2 h3 {
-    font-size: 2rem;
-}
-
-.text2 p {
-    font-size: 1.2rem;
-}
-
 
 
 .pOst {
     padding-top: 5px;
 }
 
-.ULobociva {
-    font-size: 1.3rem;
-    font-weight: 500;
-    list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
-    padding-left: 25px;
-    color: #f8f7f4;
-}
-.liobocie {
-    color: #f8f7f4;
-}
+
 
 table2 {
     border-collapse: collapse;
@@ -345,10 +271,6 @@ table2 th {
 }
 
 @media (max-width: 1000px) {
-    .ULobociva {
-        font-size: 2.5rem !important;
-        font-weight: bold;
-    }
 
     .table {
         width: 82% !important;
@@ -374,30 +296,13 @@ table2 th {
         padding: 25px;
         align-content: center;
     }
-    .div2 {
-        display: block;
-    }
 
-    #photo1 {
-        display: flex;
-        flex-direction: column-reverse;
-    }
 
     .div3 {
         display: block;
     }
-    .text2 {
-        width: 100%;
-        color: #f8f7f4;
-        padding: 20px;
-    }
-    .image3 {
-        width: 100%;
-        padding: 10px;
-        border-radius: 4px;
-        align-content: center;
-    }
-   
+
+
     .hloboke {
         font-size: 5.75rem;
     }
@@ -424,14 +329,6 @@ table2 th {
         font-size: 8rem;
     }
 
-    .text2 h3 {
-        font-size: 6rem;
-    }
-
-    .text2 p {
-        font-size: 4rem;
-    }
- 
   
     svg {
         height: 60px;

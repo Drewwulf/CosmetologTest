@@ -72,13 +72,7 @@ body {
     font-size: 1.5rem !important;
     color: #f8f7f4;
 }
-.ULobociva {
-    font-size: 1.3rem;
-    font-weight: 500;
-    list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
-    padding-left: 25px;
-    color: #f8f7f4;
-}
+
 
 .divline {
     width: 70%;
@@ -89,10 +83,6 @@ body {
 .divline hr {
     border: none; /* Прибираємо стандартну рамку */
     border-top: 1px solid #f8f7f4; /* Додаємо верхню рамку товщиною 1px чорного кольору */
-}
-
-.liobocie {
-    color: #f8f7f4;
 }
 
 
@@ -147,10 +137,6 @@ body {
     }
 
 
-    .ULobociva {
-        font-size: 2.5rem !important;
-        font-weight: bold;
-    }
 }
 
 .logo {
