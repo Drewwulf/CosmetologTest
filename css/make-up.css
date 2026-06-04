@@ -54,13 +54,6 @@ body {
     border-bottom: 2px solid black !important;
 }
 
-
-.sectionbrovy {
-    display: flex;
-    padding: 20px;
-    margin-top: 15vh;
-    color: #f8f7f4;
-}
 .fhotozbrovamy {
     width: 45%;
     height: auto;
@@ -71,50 +64,7 @@ body {
     width: 100%;
 }
 
-.aboutbrovy {
-    width: 53%;
-    align-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
-#formed {
-    font-size: 2.875rem;
-
-    color: #ffffff;
-
-    margin: 0;
-}
-
-#brovy {
-    font-size: 4.06rem;
-    margin: 0;
-}
-
-#pmakeup {
-    font-size: 1.5rem;
-}
-
-.zapisbutton {
-    background-color: black;
-    color: #f8f7f4;
-    height: 38px;
-    width: 200px;
-    display: block;
-    margin: 10px;
-    font-size: 19px;
-    font-weight: bold;
-    transition: ease 0.2s;
-    border-radius: 4px;
-
-}
-
-.zapisbutton:hover {
-    transform: scale(1.1);
-}
-#zapisid {
-    width: 100px;
-}
 
 .brovymake-up2section {
     height: max-content;
@@ -171,65 +121,6 @@ body {
 
 .psection2 {
     font-size: 1.2rem;
-}
-
-.foter {
-    height: 23vh;
-    display: flex;
-    padding: 20px;
-    background-color: #7c695b;
-}
-
-.footersection {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    text-align: center;
-    font-weight: bold;
-    color: #f8f7f4;
-}
-
-.ulfhone {
-    width: 32%;
-    height: 100%;
-    padding: 10px;
-    margin: 0;
-    list-style-type: none;
-    text-align: left;
-}
-
-.liFhone {
-    padding-bottom: 0.625rem;
-}
-
-.ulquestion {
-    width: 32%;
-    padding: 10px;
-    height: 100%;
-    margin: 0;
-    list-style-type: none;
-    text-align: left;
-}
-
-.ulvidguki {
-    width: 32%;
-    height: 100%;
-    padding: 10px;
-    margin: 0;
-    list-style-type: none;
-    color: #f8f7f4;
-}
-
-.lividguki {
-    width: 100%;
-    padding-bottom: 0.45rem;
-    padding-top: 0.45rem;
-}
-
-
-.aAbout {
-    text-decoration: none;
-    color: #f8f7f4;
 }
 
 .h2Div h2 {
@@ -416,16 +307,6 @@ body {
         height: 18vh;
     }
 
-    .aboutbrovy {
-        width: 100%;
-    }
-
-    .sectionbrovy {
-        display: block;
-        height: auto;
-        margin-top: 5vh;
-    }
-
     .pDiv {
         font-size: 2.2rem;
     }
@@ -444,48 +325,6 @@ body {
         width: 70%;
     }
 
-    .sectionbrovy {
-        display: block;
-        padding: 16px;
-        background: #9a8677;
-    }
-
-    .fhotozbovamy {
-        width: 100%;
-        padding: 0;
-    }
-
-    .zapisbutton {
-        height: 140px;
-        width: 500px;
-        font-size: 3rem;
-    }
-
-    #zapisid {
-        height: 140px;
-        width: 500px;
-        font-size: 3rem;
-    }
-
-    .aboutbrovy {
-        width: 100%;
-        padding: 0;
-    }
-
-    #pmakeup {
-        font-size: 4rem;
-    }
-
-    #formed {
-        font-size: 6.5rem;
-        margin: 0;
-    }
-
-    #brovy {
-        font-size: 8.12rem;
-        margin: 0;
-        color: #f8f7f4;
-    }
 
     .divopisobocive {
         width: 100%;
@@ -527,18 +366,6 @@ body {
 
     .h2korekcia {
         font-size: 3.6rem;
-    }
-
-    .zapisbutton:hover {
-        transform: scale(1.1);
-    }
-
-    .ulfhone {
-        font-size: 2.2rem;
-    }
-
-    .ulquestion {
-        font-size: 2.2rem;
     }
 
     svg {

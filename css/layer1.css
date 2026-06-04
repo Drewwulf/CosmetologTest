@@ -1,0 +1,90 @@
+.sectionbrovy {
+    display: flex;
+    padding: 20px;
+    margin-top: 15vh;
+}
+.fhotozbovamy {
+    width: 45%;
+    padding: 10px;
+    height: auto;
+}
+.fhotozbovamy img {
+    width: 100%;
+}
+
+.aboutbrovy {
+    width: 53%;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#formed {
+    font-size: 2.875rem;
+    color: #ffffff;
+    margin: 0;
+}
+#brovy {
+    font-size: 4.01rem;
+    margin: 0;
+    color: #f8f7f4;
+}
+
+
+.zapisbutton {
+    background-color: black;
+    color: #f8f7f4;
+    height: 38px;
+    width: 200px;
+    display: block;
+    margin: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    transition: ease 0.2s;
+    border-radius: 4px;
+}
+.zapisbutton:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 1000px) {
+
+    
+    #brovy {
+        font-size: 8.12rem;
+        margin: 0;
+        color: #f8f7f4;
+    }
+    .sectionbrovy {
+        display: block;
+        height: auto;
+        margin-top: 5vh;
+        padding: 20px;
+        background: #9a8677;
+    }
+    .aboutbrovy {
+        width: 100%;
+        padding: 0;
+    }
+      #formed {
+        font-size: 5.75rem;
+        color: #ffffff;
+        margin: 0;
+    }
+    .zapisbutton {
+        height: 140px;
+        width: 500px;
+        font-size: 3rem;
+    }
+  .zapisbutton:hover {
+        transform: scale(1.1);
+    }
+      .fhotozbovamy {
+        width: 100%;
+        padding: 0;
+    }
+
+    
+    #pmakeup {
+        font-size: 4rem;
+    }
+}

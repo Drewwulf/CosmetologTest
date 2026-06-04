@@ -17,20 +17,6 @@ body {
     margin: 0;
 }
 
-.fhotozbovamy {
-    width: 45%;
-    padding: 10px;
-    height: auto;
-}
-.fhotozbovamy img {
-    width: 100%;
-}
-.aboutbrovy {
-    width: 53%;
-    align-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 .table2 th {
     background-color: #4b3c32 !important;
@@ -57,35 +43,6 @@ body {
     margin-bottom: 50px;
 }
 
-#formed {
-    font-size: 2.875rem;
-    color: #ffffff;
-    margin: 0;
-}
-#brovy {
-    font-size: 4.01rem;
-    margin: 0;
-    color: #f8f7f4;
-}
-#pmakeup {
-    font-size: 1.5rem;
-    color: #f8f7f4;
-}
-.zapisbutton {
-    background-color: black;
-    color: #f8f7f4;
-    height: 38px;
-    width: 200px;
-    display: block;
-    margin: 10px;
-    font-size: 19px;
-    font-weight: bold;
-    transition: ease 0.2s;
-    border-radius: 4px;
-}
-.zapisbutton:hover {
-    transform: scale(1.1);
-}
 
 .divfhotoobocive {
     width: 50%;
@@ -138,69 +95,7 @@ body {
     color: #f8f7f4;
 }
 
-.foter {
-    height: 23vh;
-    display: flex;
-    padding: 20px;
-    background-color: #7c695b;
-}
-.footersection {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    text-align: center;
-    font-weight: bold;
-    color: #f8f7f4;
-}
 
-.ulfhone {
-    width: 32%;
-    height: 100%;
-    padding: 10px;
-    margin: 0;
-    list-style-type: none;
-    text-align: left;
-}
-.liFhone {
-    padding-bottom: 0.625rem;
-}
-
-.ulquestion {
-    width: 32%;
-    padding: 10px;
-    height: 100%;
-    margin: 0;
-    list-style-type: none;
-    text-align: left;
-}
-.ulvidguki {
-    width: 32%;
-    height: 100%;
-    padding: 10px;
-    margin: 0;
-    list-style-type: none;
-
-    color: #f8f7f4;
-}
-
-
-.sectionbrovy {
-    display: flex;
-    padding: 20px;
-    margin-top: 15vh;
-}
-
-
-.lividguki {
-    width: 100%;
-    padding-bottom: 0.45rem;
-    padding-top: 0.45rem;
-}
-
-.aAbout {
-    text-decoration: none;
-    color: #f8f7f4;
-}
 @media (max-width: 1000px) {
     .table2 {
     width: 85% !important;
@@ -211,13 +106,7 @@ body {
     
 }
     
-    .sectionbrovy {
-        display: block;
-        height: auto;
-        margin-top: 5vh;
-        padding: 20px;
-        background: #9a8677;
-    }
+  
     .table {
         width: 89% !important;
         margin: 0 auto;
@@ -230,35 +119,6 @@ body {
         width: 14vh;
         height: 18vh;
     }
- 
-    .fhotozbovamy {
-        width: 100%;
-        padding: 0;
-    }
-
-    .zapisbutton {
-        height: 140px;
-        width: 500px;
-        font-size: 3rem;
-    }
-    .aboutbrovy {
-        width: 100%;
-        padding: 0;
-    }
-    #pmakeup {
-        font-size: 4rem;
-    }
-    #formed {
-        font-size: 5.75rem;
-        color: #ffffff;
-        margin: 0;
-    }
-    #brovy {
-        font-size: 8.12rem;
-        margin: 0;
-        color: #f8f7f4;
-    }
-
     .divopisobocive {
         width: 100%;
     }
@@ -279,24 +139,13 @@ body {
         font-size: 6rem !important;
         text-align: left;
     }
-    .zapisbutton:hover {
-        transform: scale(1.1);
-    }
-    .ulfhone {
-        font-size: 2.2rem;
-    }
-    .ulquestion {
-        font-size: 2.2rem;
-    }
+  
     svg {
         height: 60px;
         width: 60px;
         margin: 20px;
     }
 
-    .pmakeup {
-        font-size: 2rem !important;
-    }
 
     .ULobociva {
         font-size: 2.5rem !important;
