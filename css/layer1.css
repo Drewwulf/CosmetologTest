@@ -201,7 +201,7 @@
     font-size: 1.2rem !important;
     border: none !important;
     border-bottom: 2px solid black !important;
-    margin-bottom: 50px;
+    margin-bottom: 50px;}
         .div2 {
         display: block;
     }
@@ -236,4 +236,4 @@
        .div2 {
         display: block!important;
     }
-}
+
