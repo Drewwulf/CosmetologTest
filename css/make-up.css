@@ -208,12 +208,12 @@ body {
 
 @media (max-width: 1000px) {
     
-}
+
 
     h2 {
         font-size: 6rem;
     }
-    }
+    
 
     .h3make-up {
         font-size: 8rem;
@@ -336,10 +336,10 @@ body {
         margin: 20px;
     }
 
-
+}
  
 
-}
+
 
 .logo {
     height: 100%;
