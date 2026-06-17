@@ -23,30 +23,6 @@ body {
 
 
 
-.table2 th {
-    background-color: #4b3c32 !important;
-    color: #ffffff !important;
-    padding: 15px !important;
-    border: none !important;
-    border-bottom: 2px solid black !important;
-}
-
-.table2 td {
-    background-color: #55483f !important;
-    color: #ffffff !important;
-    padding: 18px !important;
-    border: none !important;
-    border-bottom: 2px solid black !important;
-}
-
-.table2 {
-    width: 52% !important;
-    margin: 0 auto;
-    font-size: 1.2rem !important;
-    border: none !important;
-    border-bottom: 2px solid black !important;
-    margin-bottom: 50px;
-}
 
 
 
@@ -158,29 +134,6 @@ body {
 
 
 
-.table2 th {
-    background-color: #4b3c32 !important;
-    color: #ffffff !important;
-    padding: 15px !important;
-    border: inset;
-}
-
-.table2 td {
-    background-color: #55483f !important;
-    color: #ffffff !important;
-    padding: 18px !important;
-    border: inset;
-    width: 85% !important;
-}
-
-.table2 {
-    width: 85% !important;
-    margin: 0 auto;
-    font-size: 2.2rem !important;
-    border: inset;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
 
 
 .sect1 {
@@ -261,24 +214,10 @@ table2 td {
     padding-top: 5px;
 }
 
-table2 th {
-    border: 1px solid black;
-    background-color: #655143;
-    padding-left: 10px;
-    padding-right: 60px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+
 }
 
 @media (max-width: 1000px) {
-
-    .table {
-        width: 82% !important;
-        margin: 0 auto;
-        font-size: 1.7rem !important;
-        border: inset;
-        margin-top: 3vh;
-    }
 
     .sect1 {
         display: block;
@@ -337,37 +276,6 @@ table2 th {
     }
 
    
-
-    table2 {
-        border-collapse: collapse;
-        width: 85% !important;
-        margin: 0 auto;
-        font-size: 2.2rem !important;
-        border: none !important;
-        border-bottom: 2px solid black !important;
-    }
-
-    table2 td {
-        background-color: #745e4e;
-        border: 1px solid black;
-        padding-left: 10px;
-        padding-right: 60px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        font-size: 3rem;
-        color: #f8f7f4;
-    }
-
-    table2 th {
-        border: 1px solid black;
-        background-color: #655143;
-        padding-left: 10px;
-        padding-right: 60px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        font-size: 3rem;
-        color: #f8f7f4;
-    }
     .logo {
         width: 14vh;
         height: 18vh;
