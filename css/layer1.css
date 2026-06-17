@@ -88,54 +88,6 @@
 }
 
 
-@media (max-width: 1000px) {
-
-    
-    #brovy {
-        font-size: 8.12rem;
-        margin: 0;
-        color: #f8f7f4;
-    }
-    .table2 {
-    width: 85% !important;
-    margin: 50px auto;
-    font-size: 2.2rem !important;
-    border:none!important;
-        border-bottom: 2px solid black !important;}
-    .sectionbrovy {
-        display: block;
-        height: auto;
-        margin-top: 5vh;
-        padding: 20px;
-        background: #9a8677;
-    }
-    .aboutbrovy {
-        width: 100%;
-        padding: 0;
-    }
-      #formed {
-        font-size: 5.75rem;
-        color: #ffffff;
-        margin: 0;
-    }
-    .zapisbutton {
-        height: 140px;
-        width: 500px;
-        font-size: 3rem;
-    }
-  .zapisbutton:hover {
-        transform: scale(1.1);
-    }
-      .fhotozbovamy {
-        width: 100%;
-        padding: 0;
-    }
-
-    
-    #pmakeup {
-        font-size: 4rem;
-    }
-}
 .table2 {
     width: 52% !important;
     margin: 0 auto;
@@ -236,4 +188,54 @@
        .div2 {
         display: block!important;
     }
+
+
+@media (max-width: 1000px) {
+
+    
+    #brovy {
+        font-size: 8.12rem;
+        margin: 0;
+        color: #f8f7f4;
+    }
+    .table2 {
+    width: 85% !important;
+    margin: 50px auto;
+    font-size: 2.2rem !important;
+    border:none!important;
+        border-bottom: 2px solid black !important;}
+    .sectionbrovy {
+        display: block;
+        height: auto;
+        margin-top: 5vh;
+        padding: 20px;
+        background: #9a8677;
+    }
+    .aboutbrovy {
+        width: 100%;
+        padding: 0;
+    }
+      #formed {
+        font-size: 5.75rem;
+        color: #ffffff;
+        margin: 0;
+    }
+    .zapisbutton {
+        height: 140px;
+        width: 500px;
+        font-size: 3rem;
+    }
+  .zapisbutton:hover {
+        transform: scale(1.1);
+    }
+      .fhotozbovamy {
+        width: 100%;
+        padding: 0;
+    }
+
+    
+    #pmakeup {
+        font-size: 4rem;
+    }
+}
 
