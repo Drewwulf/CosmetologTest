@@ -70,40 +70,18 @@ body {
     transform: scale(1.1);
 }
 
-.div2 {
-    display: flex;
-}
+
 .div3 {
     display: flex;
 }
 
-.image3 {
-    width: 50%;
-    padding: 10px;
-    border-radius: 4px;
-    align-content: center;
-}
-.image3 img {
-    width: 100%;
-}
+
 .image4 {
     width: 50%;
     border-radius: 4px;
 }
 
-.text2 {
-    width: 50%;
-    color: #f8f7f4;
-    padding: 20px;
-}
 
-.text2 h3 {
-    font-size: 2rem;
-}
-
-.text2 p {
-    font-size: 1.2rem;
-}
 
 .headSect2 {
     color: #f8f7f4;
@@ -121,16 +99,8 @@ body {
 
 
 
-.ULobociva {
-    font-size: 1.3rem;
-    font-weight: 500;
-    list-style-image: url("/img/check_24dp_F8F7F4_FILL0_wght400_GRAD0_opsz24 (1).png");
-    padding-left: 25px;
-    color: #f8f7f4;
-}
-.liobocie {
-    color: #f8f7f4;
-}
+
+
 
 @media (max-width: 1000px) {
 
@@ -138,6 +108,15 @@ body {
         font-size: 2.5rem !important;
         font-weight: bold;
     }
+.table2 {
+    width: 85% !important;
+    margin: 50px auto;
+    font-size: 2.2rem !important;
+    border:none!important;
+    border-bottom: 2px solid black !important;
+}
+
+ 
     .sect1 {
         display: block;
         height: auto;
@@ -149,11 +128,7 @@ body {
         height: 18vh;
     }
 
-    #photo1 {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
+  
     .image1 {
         width: 100%;
     }
@@ -162,25 +137,11 @@ body {
         padding: 25px;
         align-content: center;
     }
-    .div2 {
-        display: block;
-    }
+  
     .div3 {
         display: block;
     }
-    .text2 {
-        width: 100%;
-        color: #f8f7f4;
-        padding: 20px;
-    }
-    .image3 {
-        width: 100%;
-        padding: 10px;
-        border-radius: 4px;
-        align-content: center;
-    }
 
-   
     .hloboke {
         font-size: 5.75rem;
     }
@@ -197,14 +158,7 @@ body {
         font-size: 8rem;
     }
 
-    .text2 h3 {
-        font-size: 6rem;
-    }
-
-    .text2 p {
-        font-size: 4rem;
-        
-    }
+  
  
     svg {
         height: 60px;
