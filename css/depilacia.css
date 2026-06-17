@@ -23,30 +23,6 @@ body {
 
 
 
-.table2 th {
-    background-color: #4b3c32 !important;
-    color: #ffffff !important;
-    padding: 15px !important;
-    border: none !important;
-    border-bottom: 2px solid black !important;
-}
-
-.table2 td {
-    background-color: #55483f !important;
-    color: #ffffff !important;
-    padding: 18px !important;
-    border: none !important;
-    border-bottom: 2px solid black !important;
-}
-
-.table2 {
-    width: 52% !important;
-    margin: 0 auto;
-    font-size: 1.2rem !important;
-    border: none !important;
-    border-bottom: 2px solid black !important;
-    margin-bottom: 50px;
-}
 
 
 
@@ -335,13 +311,7 @@ table2 td {
     padding-top: 5px;
 }
 
-table2 th {
-    border: 1px solid black;
-    background-color: #655143;
-    padding-left: 10px;
-    padding-right: 60px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+
 }
 
 @media (max-width: 1000px) {

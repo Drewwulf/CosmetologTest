@@ -30,30 +30,6 @@ body {
 
 
 
-.table2 th {
-    background-color: #4b3c32 !important;
-    color: #ffffff !important;
-    padding: 15px !important;
-    border:none!important;
-    border-bottom: 2px solid black !important;
-}
-
-.table2 td {
-    background-color: #55483f !important;
-    color: #ffffff !important;
-    padding: 18px !important;
-    border:none!important;
-    border-bottom: 2px solid black !important;
-}
-
-.table2 {
-    width: 52% !important;
-    margin: 0 auto;
-    font-size: 1.2rem !important;
-    border:none!important;
-    border-bottom: 2px solid black !important;
-}
-
 .fhotozbrovamy {
     width: 45%;
     height: auto;
@@ -231,12 +207,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-    .table2 {
-    width: 85% !important;
-    margin: 50px auto;
-    font-size: 2.2rem !important;
-    border:none!important;
-    border-bottom: 2px solid black !important;
+    
 }
 
     h2 {
